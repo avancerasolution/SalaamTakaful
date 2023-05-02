@@ -1088,10 +1088,11 @@ li{
     z-index: 9999999999;
 }
 .footerbottom {
-    position: fixed;
+    position: absolute;
     width: 100% !important;
     bottom: 5px !important;
     left: 0;
+    top: 0;
 }
 .call_btn>a>button {
     background-color: var(--green);
