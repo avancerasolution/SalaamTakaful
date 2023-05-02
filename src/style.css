@@ -731,7 +731,7 @@ span.text {
 }
 .menuLeft {
     left: -10px !important;
-    top: 67% !important;
+    top: 60% !important;
     gap: 5px !important;
 }
 
@@ -1105,4 +1105,7 @@ li{
     padding-right: 45px;
     height: 300px;
     overflow-y: scroll;
+}
+.footerbottom {
+    z-index: 999999999;
 }
