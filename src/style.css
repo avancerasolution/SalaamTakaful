@@ -665,7 +665,7 @@ span.text {
 }
 
 .display-text-group {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 33px;
 }
 
@@ -741,9 +741,9 @@ span.text {
     right: 5px;
     top: -45px;
 }
-.footerbottom {
+/* .footerbottom {
     bottom: 5px !important;
-}
+} */
 .section {
     height: 62vh !important;
 }
@@ -755,7 +755,7 @@ span.text {
         font-size: 23px !important;
 }
 .display-text-group {
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 25px !important;
     display: block !important;
     margin-bottom: 35px !important;
@@ -794,7 +794,7 @@ span.text {
 }
 .react-reveal.section.features.aboutus {
     margin: 0;
-    padding-top: 85px;
+    padding-top: 41px;
     height: 100vh !important;
   
 }
@@ -802,7 +802,7 @@ span.text {
     width: 100%;
 }
 .heightcontrol {
-    height: 63vh !important;
+    height: 68vh !important;
     overflow-y: scroll;
     position: relative;
     width: 1200px;
@@ -818,15 +818,17 @@ span.text {
 }
 
 .heightcontrol h2{
-    color: #00A651;
+    color: #fff;
     font-weight: 800;
     margin-bottom: 30px;
+    padding-right: 20px;
+    font-weight: 700;
 }
 .AboutSection {
     overflow-y: hidden !important;
 }
 .react-reveal.AboutSection .topheaderbox {
-    box-shadow: -8px 8px 23px 20px var(--white) !important;
+    box-shadow: -8px 8px 16px 20px var(--white) !important;
 }
 ::-webkit-scrollbar {
     width: 0px !important;
@@ -1044,4 +1046,39 @@ table{
 .shareholding table, th, td{
     border-color: #929292 !important;
     color: #000000;
+}
+.topheaderbox {
+    height: 80px !important;
+    box-shadow: -8px 8px 16px 20px var(--white)!important;
+}
+.homepagesec h2 {
+    padding-top: 55px !important;
+}
+.homepagesec p {
+    color: #fff;
+    font-size: 14px;
+    padding-right: 40px;
+    height: 280px;
+    overflow-y: scroll;
+}
+li{
+    font-size: 14px !important;
+}
+.footerbottom {
+    bottom: 25px!important;
+    height: 40px !important;
+    left: 0;
+    position: fixed;
+    width: 110%;
+}
+.menu:hover span.text {
+    z-index: 99999999 !important;
+    font-weight: 900 !important;
+}
+.navimg, span.text {
+    background: rgb(14 118 188 / 92%) !important;
+}
+.heightcontrol h3 {
+    background: #00000061;
+    padding: 5px 3px;
 }

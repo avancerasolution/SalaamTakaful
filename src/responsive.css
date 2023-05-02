@@ -182,7 +182,7 @@
     }
 
     .topheaderbox {
-        box-shadow: -8px 8px 23px 20px var(--white) !important;
+        box-shadow: -8px 8px 16px 20px var(--white) !important;
         position: relative;
     }
 
@@ -770,7 +770,7 @@
     }
 
     .topheaderbox {
-        box-shadow: -8px 8px 23px 20px var(--white) !important;
+        box-shadow: -8px 8px 16px 20px var(--white) !important;
         position: relative;
     }
 
@@ -829,13 +829,12 @@
 
     /* Footer Bar */
     .footerbottom {
-        position: fixed;
-        height: 62px;
-        width: 110%;
-        bottom: 15px !important;
+        bottom: 25px!important;
+        height: 50px;
         left: 0;
+        position: fixed;
+        width: 110%;
     }
-
     .call_btn {
         justify-content: center;
         display: flex;
@@ -1298,7 +1297,7 @@
 @media(max-width:520px) {
 
 .heightcontrol {
-        height: 63vh !important;
+        height: 68vh !important;
         overflow-y: scroll;
         position: relative;
         width: 280px;
