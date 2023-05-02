@@ -774,12 +774,15 @@ span.text {
     height: 68vh !important;
     overflow-y: scroll;
     position: relative;
-    width: 1200px;
+    width: 400px;
     margin: auto;
+    padding-right: 150px;
 }
 .heightcontrol h3{
     color: #00A651;
     font-weight: 800;
+    font-size: 18px !important;
+    line-height: 24px !important;
 }
 
 .heightcontrol p{
