@@ -1276,10 +1276,11 @@
 @media(max-width:520px) {
 
 .heightcontrol {
-        height: 68vh !important;
-        overflow-y: scroll;
-        position: relative;
-        width: 280px;
-        margin: auto;
+    height: 68vh !important;
+    overflow-y: scroll;
+    position: relative;
+    width: 400px;
+    margin: auto;
+    padding-right: 150px;
     }
 }
