@@ -783,6 +783,7 @@ span.text {
     width: 400px;
     margin: auto;
     padding-right: 150px;
+    overflow-x: hidden !important;
 }
 .heightcontrol h3{
     color: #00A651;
@@ -801,6 +802,8 @@ span.text {
     margin-bottom: 30px;
     padding-right: 20px;
     font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
 }
 .AboutSection {
     overflow-y: hidden !important;
@@ -846,17 +849,17 @@ span.text {
 }
 .react-reveal.section.features.details {
     margin: 0;
-    padding-top: 85px;
+    padding-top: 41px;
     height: 100vh !important;
 }
 .react-reveal.section.features.shariah {
     margin: 0;
-    padding-top: 85px;
+    padding-top: 41px;
     height: 100vh !important;
 }
 .react-reveal.section.features.coc {
     margin: 0;
-    padding-top: 85px;
+    padding-top: 41px;
     height: 100vh !important;
 }
 .coc{
