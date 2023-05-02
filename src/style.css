@@ -1088,7 +1088,7 @@ li{
     z-index: 9999999999;
 }
 .footerbottom {
-    position: absolute;
+    position: fixed;
     width: 100% !important;
     bottom: 5px !important;
     left: 0;
