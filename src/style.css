@@ -1090,9 +1090,9 @@ li{
 .footerbottom {
     position: fixed;
     width: 100% !important;
-    bottom: 5px !important;
+    bottom: 4% !important;
     left: 0;
-    height: 64px;
+    height: 0px !important;
 }
 .call_btn>a>button {
     background-color: var(--green);
