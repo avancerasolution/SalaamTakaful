@@ -717,7 +717,8 @@ span.text {
     height: 62vh !important;
 }
 .menu {
-    top: 13% !important;
+    top: 11% !important;
+    gap: 7px !important;
 }
 .aboutus h3{
         font-weight: 700;

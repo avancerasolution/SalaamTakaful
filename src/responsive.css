@@ -1276,7 +1276,7 @@
 @media(max-width:520px) {
 
 .heightcontrol {
-    height: 68vh !important;
+    height: 65vh !important;
     overflow-y: scroll;
     position: relative;
     width: 400px;
