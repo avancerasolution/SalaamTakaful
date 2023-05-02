@@ -1082,3 +1082,27 @@ li{
     background: #00000061;
     padding: 5px 3px;
 }
+.menuLeft .items span {
+    width: 20px ;
+    transition: all 300ms ease-in-out;
+}
+.menuLeft .items span img{
+    opacity: 0 ;
+    transition: all 300ms ease-in-out;
+}
+.menuLeft .items span:hover {
+    width: 40px  ;
+    transition: all 300ms ease-in-out;
+}
+.menuLeft .items span:hover img{
+    opacity: 1 ;
+    position: relative;
+    right: -3px;
+    transition: all 300ms ease-in-out;
+}
+.col-sm-12.homepagesec .display-text-group {
+    color: #fff;
+    padding-right: 45px;
+    height: 300px;
+    overflow-y: scroll;
+}
