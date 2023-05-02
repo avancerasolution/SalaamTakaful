@@ -1116,3 +1116,6 @@ li{
     width: 27px;
     margin-right: 10px;
 }
+.col-sm-12.homepagesec {
+    height: 70vh !important;
+}
