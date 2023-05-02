@@ -250,14 +250,7 @@
         text-decoration: none;
     }
 
-    /* Footer Bar */
-    .footerbottom {
-        position: fixed;
-        height: 62px;
-        width: 100%;
-        bottom: 16px !important;
-        left: 0;
-    }
+
 
     .call_btn {
         justify-content: center;
@@ -737,13 +730,6 @@
         margin-right: 0px !important;
     }
 
-    .footerbottom {
-        position: fixed;
-        height: 62px;
-        width: 100% !important;
-        bottom: 90px !important;
-        left: 0;
-    }
 
 
 
@@ -827,14 +813,7 @@
         text-decoration: none;
     }
 
-    /* Footer Bar */
-    .footerbottom {
-        bottom: 25px!important;
-        height: 50px;
-        left: 0;
-        position: fixed;
-        width: 110%;
-    }
+
     .call_btn {
         justify-content: center;
         display: flex;
