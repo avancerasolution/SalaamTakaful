@@ -6,11 +6,13 @@ import LeftSideBar from "../Common/LeftSideBar";
 import { useState } from "react";
 import MobileMenu from "../Common/MobileMenu";
 import Homepage from "../Components/Homepage";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   const [show, setshow] = useState(false);
   return (
     <React.Fragment>
+<Fade right duration={1000}>
       {show ? <MobileMenu show={show} setshow={setshow} /> : <>
 
 
@@ -20,13 +22,15 @@ const Home = () => {
           <SideBar />
           <Homepage/>
           <LeftSideBar />
-          <Footer />
-        </div>
+<Footer />
 
+        </div>
+   
 
 
       </>
       }
+</Fade>
     </React.Fragment>
   )
 }

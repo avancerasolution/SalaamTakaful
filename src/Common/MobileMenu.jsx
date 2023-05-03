@@ -3,10 +3,13 @@ import Accordion from "react-bootstrap/Accordion";
 import { RxCross2 } from "react-icons/rx";
 import Fade from "react-reveal/Fade";
 import Downloads from "./Downloads";
+
+
+
 const MobileMenu = ({ show, setshow }) => {
   return (
-    <Fade right>
-      <div className="mobileMenu">
+    <Fade right cascade>
+      <div className="mobileMenu" >
         <div>
           <div className="container menuBar">
             <span onClick={() => setshow(false)}>

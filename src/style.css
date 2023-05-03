@@ -714,10 +714,15 @@ span.text {
 .container.menuBar svg {
     z-index: 99999999;
     position: absolute;
-    right: -10px;
-    top: -85px;
+    right: 5px;
+    top: -45px;
 }
-
+.container.menuBar svg:hover{
+    cursor: pointer;
+}
+.headcontent img:hover{
+    cursor: pointer;
+}
 .section {
     height: 62vh !important;
 }

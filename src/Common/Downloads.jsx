@@ -15,9 +15,6 @@ const Downloads = ({ show, setshow }) => {
       <div className="subs">
         <div>
           <div className="container submenus">
-            <span onClick={() => setshow(false)}>
-              <RxCross2 />
-            </span>
             <Accordion  flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Individuals (PDF)</Accordion.Header>
