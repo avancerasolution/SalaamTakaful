@@ -130,7 +130,6 @@ span.text {
 }
 
 span.text1 {
-    background-color: var(--blue);
     border-radius: 10px 0 0 10px;
     padding: 10px;
 }
@@ -261,7 +260,8 @@ span.text {
 }
 
 .AboutSection {
-    background-image: url("./assets/AboutBackground.png");
+    /* background-image: url("./assets/AboutBackground.png"); */
+    background: #000000 !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -667,6 +667,8 @@ span.text {
     display: block !important;
 }
 
+
+
 /* css */
 
 .homepagesec h2{
@@ -712,8 +714,8 @@ span.text {
 .container.menuBar svg {
     z-index: 99999999;
     position: absolute;
-    right: 5px;
-    top: -45px;
+    right: -10px;
+    top: -85px;
 }
 
 .section {
@@ -1118,4 +1120,45 @@ li{
 }
 .col-sm-12.homepagesec {
     height: 70vh !important;
+}
+.container.submenus button {
+    padding: 15px 25px !important;
+    background: #15578C !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    border: unset !important;
+    outline: unset !important;
+}
+.mobileMenu .accordion-body {
+    padding: 0px 0 !IMPORTANT;
+    background: #00A651;
+}
+.submenus .accordion{
+    border: unset !important;
+}
+.submenus .accordion-button::after {
+    color: #fff;
+}
+.submenus  .accordion-button:not(.collapsed)::after {
+    color: #fff;
+}
+.submenus ul {
+    padding: 0px 25px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.submenus .accordion-button:not(.collapsed) {
+    border-radius: 0;
+    background: #00A651 !important;
+}
+.container.submenus {
+    padding: 0;
+}
+.submenus .accordion-item {
+    margin: 0 !important;
+    border: unset !important;
+}
+.submenus .accordion-item a{
+    color: #fff !important;
+    text-decoration: unset;
 }

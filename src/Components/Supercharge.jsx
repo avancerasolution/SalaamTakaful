@@ -7,7 +7,7 @@ import { Fragment } from "react";
 const Supercharge = () => {
   return (
     <React.Fragment>
-      <Fade bottom>
+      <Fade bottom delay={500}>
         <div className="section features aboutus supercharge">
          <div className="heightcontrol">
             <h2>Unique Product Features </h2>
