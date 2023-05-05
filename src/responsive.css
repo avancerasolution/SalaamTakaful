@@ -1306,9 +1306,10 @@
     z-index: 9999;
 }
 .topheader.topheaderbox {
-    position: relative;
+    position: absolute;
     z-index: 9;
     background: #fff;
+    width: 100%;
 }
 .menuLeft {
     left: -10px !important;
