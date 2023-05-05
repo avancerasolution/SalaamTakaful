@@ -1278,7 +1278,7 @@
     
 .homepagesec h2{
     color: #fff;
-    padding-top: 80px;
+    padding-top: 0px !important;
     padding-right: 60px;
     font-weight: 800;
 }
@@ -1640,7 +1640,7 @@ table{
     box-shadow: -8px 8px 16px 20px var(--white)!important;
 }
 .homepagesec h2 {
-    padding-top: 55px !important;
+    padding-top: 0px !important;
 }
 .homepagesec p {
     color: #fff;
@@ -1685,7 +1685,7 @@ li{
 .col-sm-12.homepagesec .display-text-group {
     color: #fff;
     padding-right: 45px;
-    height: 300px;
+    /* height: 300px; */
     overflow-y: scroll;
 }
 .footerbottom {
@@ -1770,5 +1770,29 @@ li{
     width: 400px;
     margin: auto;
     padding-right: 150px;
+    }
+
+    /* scroll css */
+
+.hassandiv {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.hassanhome{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+button.btn-scroll {
+    position: absolute;
+    bottom: -18%;
+    left: 35%;
+    background: unset;
+    border: unset;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: underline;
     }
 }

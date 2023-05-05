@@ -673,7 +673,7 @@ span.text {
 
 .homepagesec h2{
     color: #fff;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     padding-right: 60px;
     font-weight: 800;
 }
@@ -1082,12 +1082,12 @@ li{
     right: -3px;
     transition: all 300ms ease-in-out;
 }
-.col-sm-12.homepagesec .display-text-group {
+/* .col-sm-12.homepagesec .display-text-group {
     color: #fff;
     padding-right: 45px;
     height: 300px;
     overflow-y: scroll;
-}
+} */
 .footerbottom {
     z-index: 999999999;
 }
@@ -1166,4 +1166,17 @@ li{
 .submenus .accordion-item a{
     color: #fff !important;
     text-decoration: unset;
+}
+
+/* scroll css */
+
+.hassandiv {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.hassanhome{
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
