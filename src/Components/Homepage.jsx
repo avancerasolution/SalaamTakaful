@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment } from 'react'
 import Fade from "react-reveal/Fade";
 import data from "../Data";
 import ReadMoreReact from "read-more-react";

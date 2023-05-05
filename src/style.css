@@ -1171,7 +1171,7 @@ li{
 /* scroll css */
 
 .hassandiv {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -1179,4 +1179,7 @@ li{
     height: 100vh;
     display: flex;
     align-items: center;
+}
+.row{
+    overflow-y: hidden;
 }

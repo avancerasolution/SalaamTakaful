@@ -1719,7 +1719,7 @@ li{
     margin-right: 10px;
 }
 .col-sm-12.homepagesec {
-    height: 70vh !important;
+    height: 90vh !important;
 }
 .container.submenus button {
     padding: 15px 25px !important;
@@ -1778,6 +1778,7 @@ li{
     height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .hassanhome{
     height: 100vh;
@@ -1787,12 +1788,15 @@ li{
 
 button.btn-scroll {
     position: absolute;
-    bottom: -18%;
+    bottom: 18%;
     left: 35%;
     background: unset;
     border: unset;
     color: #fff;
     font-weight: 900;
     text-decoration: underline;
+    }
+    .col-sm-12.homepagesec {
+        overflow-y: hidden;
     }
 }
