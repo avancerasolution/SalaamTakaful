@@ -5,7 +5,7 @@ import BuyNow from "../assets/Buy.png";
 const Footer = () => {
   return (
     <React.Fragment>
-        <div className="row">
+        <div className="row footercentr">
           <div className="col call_btn footerbottom">
             <Link to="/buynow">
               <button>

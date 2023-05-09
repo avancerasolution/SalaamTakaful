@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import about2b from "../assets/images1.png";
-import img3 from "../assets/about3.png";
-import img3b from "../assets/img3b.png";
+import about2 from "../assets/about2.png";
+import img3 from "../assets/icons/advisor.png";
+import img3b from "../assets/icons/advisorb.png";
 import img4 from "../assets/about4.png";
 import img4b from "../assets/img4b.png";
 import img5b from "../assets/socialb.png";
 import img5 from "../assets/social.png";
 import { Link } from "react-router-dom";
 import HomeIcon from "../assets/homeicon.png";
-import about2 from "../assets/about2.png";
 import AboutSection from "./AboutSection";
 import AboutArrange from "./AboutArrange";
 import AboutEsg from "./AboutEsg";
 import AboutEsgs from "./AboutEsgs";
+
+
 
 
 const SideBar = () => {

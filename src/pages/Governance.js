@@ -19,13 +19,14 @@ const Governance = () => {
             <div className=" AboutSection">
               <Header show={show} setshow={setshow} />
               <div className="d-flex justify-content-between">
-                <Governancesidebar/>
+                <Governancesidebar />
               </div>
-              <Footer />
+
             </div>
           </Fade>
         </>
       )}
+      <Footer />
     </React.Fragment>
   );
 };

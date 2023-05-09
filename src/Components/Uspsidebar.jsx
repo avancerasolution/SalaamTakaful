@@ -172,13 +172,13 @@ function Tab({ value }) {
     return <Bonus />;
   } else if (value === "flexible") {
     return <Flexible />;
-  }  else if (value === "unlimited") {
+  } else if (value === "unlimited") {
     return <Unlimited />;
-  }  else if (value === "zero") {
+  } else if (value === "zero") {
     return <Zero />;
-  }   else if (value === "wakala") {
+  } else if (value === "wakala") {
     return <Wakala />;
-  }   else if (value === "inclusive") {
+  } else if (value === "inclusive") {
     return <Inclusive />;
   } else {
     return <Supercharge />;

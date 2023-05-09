@@ -5,6 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.2.3",
     "font-proxima-nova": "^1.0.1",
     "react": "^16.13.0",
@@ -15,7 +16,10 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
+    "react-swipeable-views": "^0.14.0",
     "read-more-react": "^1.0.10",
+    "swiper": "^9.3.0",
+    "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -43,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^12.1.5"
+    "@testing-library/react": "^12.1.5",
+    "@types/jquery": "^3.5.16"
   }
 }

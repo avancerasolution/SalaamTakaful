@@ -1,21 +1,21 @@
 import React, { useState } from "react";
-import environment from "../assets/Sustainability.png";
-import policy from "../assets/Policy .png";
-import policyb from "../assets/Policyb.png";
-import social from "../assets/social.png";
-import socialb from "../assets/socialb.png";
-import advisor from "../assets/Sustainability.png";
-import advisorb from "../assets/Sustainabilityb.png";
+import board from "../assets/icons/directorb.png";
+import auditior from "../assets/icons/auditor.png";
+import auditiorb from "../assets/icons/auditorb.png";
+import management from "../assets/icons/management-committeeb.png";
+import managementb from "../assets/icons/management committee.png";
+import advisor from "../assets/icons/advisorb.png";
+import advisorb from "../assets/icons/advisor.png";
 import { Link } from "react-router-dom";
 import HomeIcon from "../assets/homeicon.png";
-import environmentb from "../assets/Sustainabilityb.png";
+import boardb from "../assets/icons/director.png";
 import Board from "./Board";
 import Managment from "./Managment";
 import Auditor from "./Auditor";
 import Advisor from "./Advisor";
 import Shareholding from "./Shareholding";
-import share from "../assets/about3.png";
-import shareb from "../assets/img3b.png";
+import share from "../assets/icons/financial report.png";
+import shareb from "../assets/icons/financial-reportb.png";
 
 const Governancesidebar = () => {
   const [Tabvalue, setTabvalue] = useState("board");
@@ -46,9 +46,9 @@ const Governancesidebar = () => {
                 onClick={() => myfun("board")}
               >
                 {Tabvalue === "board" ? (
-                  <img src={environment} alt="img" />
+                  <img src={board} alt="img" width="100" />
                 ) : (
-                  <img src={environmentb} alt="img" />
+                  <img src={boardb} alt="img" width="100" />
                 )}
               </span>
             </span>
@@ -60,9 +60,9 @@ const Governancesidebar = () => {
                 onClick={() => myfun("managment")}
               >
                 {Tabvalue === "managment" ? (
-                  <img src={social} alt="img" />
+                  <img src={management} alt="img" width="100" />
                 ) : (
-                  <img src={socialb} alt="img" />
+                  <img src={managementb} alt="img" width="100" />
                 )}
               </span>
             </span>
@@ -76,9 +76,9 @@ const Governancesidebar = () => {
                 onClick={() => myfun("auditor")}
               >
                 {Tabvalue === "auditor" ? (
-                  <img src={policyb} alt="img" />
+                  <img src={auditiorb} alt="img" width="100" />
                 ) : (
-                  <img src={policy} alt="img" />
+                  <img src={auditior} alt="img" width="100" />
                 )}
               </span>
             </span>
@@ -93,9 +93,9 @@ const Governancesidebar = () => {
                 onClick={() => myfun("advisor")}
               >
                 {Tabvalue === "advisor" ? (
-                  <img src={advisor} alt="img" />
+                  <img src={advisor} alt="img" width="100" />
                 ) : (
-                  <img src={advisorb} alt="img" />
+                  <img src={advisorb} alt="img" width="100" />
                 )}
               </span>
             </span>
@@ -110,9 +110,9 @@ const Governancesidebar = () => {
                 onClick={() => myfun("share")}
               >
                 {Tabvalue === "share" ? (
-                  <img src={shareb} alt="img" />
+                  <img src={shareb} alt="img" width="100" />
                 ) : (
-                  <img src={share} alt="img" />
+                  <img src={share} alt="img" width="100" />
                 )}
               </span>
             </span>
@@ -133,9 +133,9 @@ function Tab({ value }) {
     return <Managment />;
   } else if (value === "auditor") {
     return <Auditor />;
-  }  else if (value === "advisor") {
+  } else if (value === "advisor") {
     return <Advisor />;
-  }  else if (value === "share") {
+  } else if (value === "share") {
     return <Shareholding />;
   } else {
     return <Board />;

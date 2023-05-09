@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, Fragment } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
@@ -9,26 +9,58 @@ import Esg from './pages/esg';
 import "../src/responsive.css"
 import Governance from './pages/Governance';
 import Usp from './pages/Usp';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Loader from './Components/Loader';
 
 
 function App() {
 
+  const [userIsMobile, setUserIsMobile] = useState(true);
+  useEffect(() => {
+    window.innerWidth < 520 ? setUserIsMobile(true) : setUserIsMobile(false);
+
+  }, [userIsMobile]);
+
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    },4000)
+  }, [])
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <React.Fragment>
 
-      <BrowserRouter>
+      {
+        userIsMobile ?
+        <Fragment>
+          {loading ? <Loader/> :
+        <>
+          <BrowserRouter>
+            <Routes>
+              <Route path='/' exact element={<Home />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/buynow' element={<BuyNow />} />
+              <Route path='/product' element={<Product />} />
+              <Route path='/esg' element={<Esg />} />
+              <Route path='/governance' element={<Governance />} />
+              <Route path='/usp' element={<Usp />} />
+            </Routes>
+          </BrowserRouter>
+          </>
+          }
+          </Fragment>
 
-        <Routes>
-          <Route path='/' exact element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/buynow' element={<BuyNow />} />
-          <Route path='/product' element={<Product />} />
-          <Route path='/esg' element={<Esg />} />
-          <Route path='/governance' element={<Governance />} />
-          <Route path='/usp' element={<Usp />} />
-        </Routes>
-      </BrowserRouter>
+          : <>dESKTOP</>
+      }
+
     </React.Fragment>
   );
 }

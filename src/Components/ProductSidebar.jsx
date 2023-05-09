@@ -1,20 +1,22 @@
 import React, { useState } from "react";
 import environment from "../assets/Sustainability.png";
-import policy from "../assets/Policy .png";
-import policyb from "../assets/Policyb.png";
-import social from "../assets/social.png";
-import socialb from "../assets/socialb.png";
-import advisor from "../assets/Sustainability.png";
-import advisorb from "../assets/Sustainabilityb.png";
+import environmentb from "../assets/Sustainabilityb.png";
+import policy from "../assets/icons/individual.png";
+import policyb from "../assets/icons/individualb.png";
+import investment from "../assets/icons/desk management.png";
+import investmentb from "../assets/icons/desk-managementb.png";
+import charge from "../assets/icons/performance report.png";
+import chargeb from "../assets/icons/performance-reportb.png";
+
+import moreb from "../assets/icons/investor complaint.png";
+import more from "../assets/icons/investor-complaintb.png";
 import { Link } from "react-router-dom";
 import HomeIcon from "../assets/homeicon.png";
-import environmentb from "../assets/Sustainabilityb.png";
+
 import Board from "./Board";
-import Auditor from "./Auditor";
-import Advisor from "./Advisor";
-import Shareholding from "./Shareholding";
-import share from "../assets/about3.png";
-import shareb from "../assets/img3b.png";
+
+import supliment from "../assets/icons/news & update.png";
+import suplimentb from "../assets/icons/news-&-updateb.png";
 import Productoverview from "./Productoverview";
 import ProductUsp from "./Supercharge";
 import Additional from "./Additionalfeatures";
@@ -62,12 +64,12 @@ const ProductSidebar = () => {
           <div className="item">
             <span className="whitebg">
               <Link to="/usp" className="linkstyle">
-                <span className={   Tabvalue === "auditor" ? "aboutactive" : "bgColor" }>
-                {Tabvalue === "auditor" ? (
-                  <img src={policyb} alt="img" />
-                ) : (
-                  <img src={policy} alt="img" />
-                )}
+                <span className={Tabvalue === "auditor" ? "aboutactive" : "bgColor"}>
+                  {Tabvalue === "auditor" ? (
+                    <img src={policyb} alt="img" />
+                  ) : (
+                    <img src={policy} alt="img" />
+                  )}
                 </span>
               </Link>
             </span>
@@ -85,9 +87,9 @@ const ProductSidebar = () => {
                 onClick={() => myfun("additional")}
               >
                 {Tabvalue === "additional" ? (
-                  <img src={advisor} alt="img" />
+                  <img src={more} alt="img" />
                 ) : (
-                  <img src={advisorb} alt="img" />
+                  <img src={moreb} alt="img" />
                 )}
               </span>
             </span>
@@ -102,9 +104,9 @@ const ProductSidebar = () => {
                 onClick={() => myfun("suplimentary")}
               >
                 {Tabvalue === "suplimentary" ? (
-                  <img src={shareb} alt="img" />
+                  <img src={suplimentb} alt="img" />
                 ) : (
-                  <img src={share} alt="img" />
+                  <img src={supliment} alt="img" />
                 )}
               </span>
             </span>
@@ -119,9 +121,9 @@ const ProductSidebar = () => {
                 onClick={() => myfun("investment")}
               >
                 {Tabvalue === "investment" ? (
-                  <img src={environment} alt="img" />
+                  <img src={investmentb} alt="img" />
                 ) : (
-                  <img src={environmentb} alt="img" />
+                  <img src={investment} alt="img" />
                 )}
               </span>
             </span>
@@ -136,9 +138,9 @@ const ProductSidebar = () => {
                 onClick={() => myfun("charge")}
               >
                 {Tabvalue === "charge" ? (
-                  <img src={policyb} alt="img" />
+                  <img src={chargeb} alt="img" />
                 ) : (
-                  <img src={policy} alt="img" />
+                  <img src={charge} alt="img" />
                 )}
               </span>
             </span>
@@ -159,9 +161,9 @@ function Tab({ value }) {
     return <ProductUsp />;
   } else if (value === "additional") {
     return <Additional />;
-  }  else if (value === "suplimentary") {
+  } else if (value === "suplimentary") {
     return <Suplimentary />;
-  }  else if (value === "investment") {
+  } else if (value === "investment") {
     return <Investment />;
   } else if (value === "charge") {
     return <Charge />;

@@ -19,13 +19,14 @@ const Usp = () => {
             <div className=" AboutSection">
               <Header show={show} setshow={setshow} />
               <div className="d-flex justify-content-between">
-                <Uspsidebar/>
+                <Uspsidebar />
               </div>
-              <Footer />
+
             </div>
           </Fade>
         </>
       )}
+      <Footer />
     </React.Fragment>
   );
 };

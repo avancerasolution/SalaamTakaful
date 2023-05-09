@@ -65,11 +65,11 @@ const SideBarEsg = () => {
             <span className="whitebg">
               <Link to="/governance" className="linkstyle">
                 <span className={Tabvalue === "social" ? "aboutactive" : "bgColor"}>
-                {Tabvalue === "social" ? (
-                  <img src={social} alt="img" />
-                ) : (
-                  <img src={socialb} alt="img" />
-                )}
+                  {Tabvalue === "social" ? (
+                    <img src={social} alt="img" />
+                  ) : (
+                    <img src={socialb} alt="img" />
+                  )}
                 </span>
               </Link>
             </span>

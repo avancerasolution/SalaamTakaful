@@ -21,11 +21,12 @@ const Esg = () => {
                             <div className="d-flex justify-content-between">
                                 <SideBar />
                             </div>
-                            <Footer />
+
                         </div>
                     </Fade>
                 </>
             )}
+            <Footer />
         </React.Fragment>
     );
 };

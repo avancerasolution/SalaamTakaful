@@ -16,16 +16,17 @@ const About = () => {
       ) : (
         <>
           <Fade right duration={1000}>
-            <div className=" AboutSection">
+            <div className=" AboutSection " >
               <Header show={show} setshow={setshow} />
               <div className="d-flex justify-content-between">
                 <SideBar />
               </div>
-              <Footer />
+
             </div>
           </Fade>
         </>
       )}
+      <Footer />
     </React.Fragment>
   );
 };

@@ -12,25 +12,28 @@ const Home = () => {
   const [show, setshow] = useState(false);
   return (
     <React.Fragment>
-<Fade right duration={1000}>
-      {show ? <MobileMenu show={show} setshow={setshow} /> : <>
+      <Fade right duration={1000}>
+        {show ? <MobileMenu show={show} setshow={setshow} /> : <>
 
 
-        <Header show={show} setshow={setshow} />
-        <div className="container-fluid main">
+          <Header show={show} setshow={setshow} />
+          <div className="container-fluid main">
 
-          <SideBar />
-          <Homepage/>
-          <LeftSideBar />
-<Footer />
-
-        </div>
-   
+            <SideBar />
+            <Homepage />
+            <LeftSideBar />
 
 
-      </>
-      }
-</Fade>
+          </div>
+
+
+
+        </>
+        }
+
+      </Fade>
+
+      <Footer />
     </React.Fragment>
   )
 }
