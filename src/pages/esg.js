@@ -5,6 +5,7 @@ import SideBar from "../Components/SidebarEsg";
 import Fade from "react-reveal/Fade";
 import MobileMenu from "../Common/MobileMenu";
 import { useState } from "react";
+import Readmore from "../Common/Readmore";
 
 const Esg = () => {
     const [show, setshow] = useState(false);
@@ -26,7 +27,9 @@ const Esg = () => {
                     </Fade>
                 </>
             )}
+            <Readmore/>
             <Footer />
+
         </React.Fragment>
     );
 };

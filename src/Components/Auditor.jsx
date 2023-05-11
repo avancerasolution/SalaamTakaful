@@ -44,7 +44,7 @@ const Auditor = () => {
               </SwipeableViews>
             </div>
 
-            <button className="btn-scroll"> <i class="fa fa-chevron-circle-up" aria-hidden="true"></i><br />Learn More </button>
+            <p className="learn"></p>
           </div>
         </div>
       </Fade>

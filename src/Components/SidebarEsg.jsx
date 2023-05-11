@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import environment from "../assets/Sustainability.png";
-import policy from "../assets/Policy .png";
-import policyb from "../assets/Policyb.png";
 import social from "../assets/social.png";
 import socialb from "../assets/socialb.png";
 import { Link } from "react-router-dom";

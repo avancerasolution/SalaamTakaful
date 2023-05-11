@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import MobileMenu from "../Common/MobileMenu";
 import { useState } from "react";
 import Governancesidebar from "../Components/Governancesidebar";
+import Readmore from "../Common/Readmore";
 
 const Governance = () => {
   const [show, setshow] = useState(false);
@@ -26,6 +27,7 @@ const Governance = () => {
           </Fade>
         </>
       )}
+      <Readmore/>
       <Footer />
     </React.Fragment>
   );

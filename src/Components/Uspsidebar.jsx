@@ -9,11 +9,7 @@ import advisorb from "../assets/Sustainabilityb.png";
 import { Link } from "react-router-dom";
 import HomeIcon from "../assets/homeicon.png";
 import environmentb from "../assets/Sustainabilityb.png";
-import Board from "./Board";
-import Managment from "./Managment";
-import Auditor from "./Auditor";
-import Advisor from "./Advisor";
-import Shareholding from "./Shareholding";
+
 import share from "../assets/about3.png";
 import shareb from "../assets/img3b.png";
 import Supercharge from "./Supercharge";

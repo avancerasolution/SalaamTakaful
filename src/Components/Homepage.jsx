@@ -1,9 +1,7 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 import Fade from "react-reveal/Fade";
 import data from "../Data";
-import ReadMoreReact from "read-more-react";
 
-import SwipeableViews from 'react-swipeable-views';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

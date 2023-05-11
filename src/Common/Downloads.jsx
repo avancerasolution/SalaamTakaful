@@ -1,6 +1,5 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import Individual from "../pdf/Individual Family Products Shariah Certificate.pdf"
 import Term from "../pdf/Term Family Shariah Certificate.pdf"

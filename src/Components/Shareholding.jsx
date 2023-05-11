@@ -1,6 +1,5 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import ReadMoreReact from "read-more-react";
 import data from "../Data";
 import { Fragment } from "react";
 import SwipeableViews from 'react-swipeable-views';
@@ -56,7 +55,7 @@ const Shareholding = () => {
               </SwipeableViews>
             </div>
 
-            <button className="btn-scroll"> <i class="fa fa-chevron-circle-up" aria-hidden="true"></i><br />Learn More </button>
+            <p className="learn"></p>
           </div>
         </div>
       </Fade>

@@ -32,7 +32,7 @@ export default function Homepage() {
 
                   <div className='myheading' style={Object.assign({}, styles.slide, styles.slide1)}>
                     <h2 >{item.title}</h2>
-                    <button className="btn-scroll"> <i class="fa fa-chevron-circle-up" aria-hidden="true"></i><br />Learn More </button>
+                    <p className="learn"></p>
                   </div>
 
 

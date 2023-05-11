@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import MobileMenu from "../Common/MobileMenu";
 import { useState } from "react";
 import Uspsidebar from "../Components/Uspsidebar";
+import Readmore from "../Common/Readmore";
 
 const Usp = () => {
   const [show, setshow] = useState(false);
@@ -26,6 +27,7 @@ const Usp = () => {
           </Fade>
         </>
       )}
+      <Readmore/>
       <Footer />
     </React.Fragment>
   );
