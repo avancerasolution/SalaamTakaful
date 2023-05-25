@@ -16,11 +16,11 @@ const Home = () => {
         {show ? <MobileMenu show={show} setshow={setshow} /> : <>
 
 
-          <Header show={show} setshow={setshow} />
+
           <div className="container-fluid main">
 
             <SideBar />
-            <Homepage />
+            <Homepage setshow={setshow} />
             <LeftSideBar />
 
 

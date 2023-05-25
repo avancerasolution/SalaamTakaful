@@ -10,7 +10,7 @@ const Header = ({ show, setshow }) => {
     <React.Fragment>
       <div className="topheader topheaderbox">
         <div className="topheader1">
-          <div>
+          <div className="logoContainer">
             <Link to="/">
               <img src={Logo} alt="logo" />
             </Link>

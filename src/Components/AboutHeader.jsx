@@ -2,14 +2,15 @@ import React from "react";
 import Logo from "../assets/PdYUvU.png";
 import header1 from "../assets/header1.png";
 import headetr2 from "../assets/header2.png";
-import FaBar from "../assets//Group 6.png";
+
 import { Link } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 const Header = ({ show, setshow }) => {
   return (
     <React.Fragment>
       <div className="topheader topheaderbox">
         <div className="topheader1">
-          <div>
+          <div className="logoContainer">
             <Link to="/">
               <img src={Logo} alt="logo" />
             </Link>
@@ -22,7 +23,8 @@ const Header = ({ show, setshow }) => {
               <img src={headetr2} alt="logo" />
             </span>
             <span>
-              <img onClick={() => setshow(true)} src={FaBar} alt="logo" />
+              {/* <img src={FaBar} alt="logo" /> */}
+              <RxHamburgerMenu onClick={() => setshow(true)} />
             </span>
           </div>
         </div>

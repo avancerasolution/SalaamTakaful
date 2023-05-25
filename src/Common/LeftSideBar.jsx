@@ -6,7 +6,7 @@ const LeftSideBar = () => {
   return (
     <React.Fragment>
       <div className="container-fluid">
-        <div className="menuLeft">
+        {/* <div className="menuLeft">
           <div className="items">
             <span>
               <img src={Phone} alt="img" />
@@ -17,7 +17,7 @@ const LeftSideBar = () => {
               <img src={Chat} alt="img" />
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

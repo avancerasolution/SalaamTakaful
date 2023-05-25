@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import About from "../assets/About.png";
 import ESG from "../assets/ESG.png";
 import Products from "../assets/Product.png";
 import Fund from "../assets/Fund.png";
+import office from "../assets/office-building.png";
+import protection from "../assets/protection.png";
+import premiumq from "../assets/premium-quality.png";
+import premium from "../assets/premium-quality (1).png";
 
 const SideBar = () => {
   return (
@@ -13,9 +16,8 @@ const SideBar = () => {
           <div className="item">
             <span className="whitebg">
               <Link to="/about">
-                <span className="text">About</span>
                 <span className="navimg">
-                  <img src={About} alt="img" />
+                  <img src={office} alt="img" />
                 </span>
               </Link>
             </span>
@@ -24,10 +26,8 @@ const SideBar = () => {
           <div className="item">
             <span className="whitebg">
               <Link to="/governance">
-                {" "}
-                <span className="text">ESG</span>
                 <span className="navimg">
-                  <img src={ESG} alt="img" />
+                  <img src={protection} alt="img" />
                 </span>
               </Link>
             </span>
@@ -35,18 +35,16 @@ const SideBar = () => {
           <div className="item ">
             <span className="whitebg">
               <Link to="/product">
-                <span className="text">Products</span>
                 <span className="navimg">
-                  <img src={Products} alt="img" />
+                  <img src={premiumq} alt="img" />
                 </span>
               </Link>
             </span>
           </div>
           <div className="item iteminner">
             <span className="whitebg">
-              <span className="text">FUNDS PERFORMANCE</span>
               <span className="navimg">
-                <img src={Fund} alt="img" />
+                <img src={premium} alt="img" />
               </span>
             </span>
           </div>

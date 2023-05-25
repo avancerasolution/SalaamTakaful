@@ -30,129 +30,60 @@ const Uspsidebar = () => {
     <React.Fragment>
       <div>
         <div className="menu">
+          <div className="item"></div>
           <div className="item">
             <span className="whitebg">
-              <Link to="/product" className="linkstyle">
-                <span className="navimg newabout">
-                  <span className="text1">Product</span>
-                  <img src={HomeIcon} alt="img" />
-                </span>
-              </Link>
-            </span>
-          </div>
-          <div className="item">
-            <span className="whitebg">
-              <span
-                className={
-                  Tabvalue === "super" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("super")}
-              >
-                {Tabvalue === "super" ? (
-                  <img src={environment} alt="img" />
-                ) : (
-                  <img src={environmentb} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("super")}>
+                <img src={environment} alt="img" />
               </span>
             </span>
           </div>
           <div className="item ">
             <span className="whitebg">
-              <span
-                className={Tabvalue === "bonus" ? "aboutactive" : "bgColor"}
-                onClick={() => myfun("bonus")}
-              >
-                {Tabvalue === "bonus" ? (
-                  <img src={social} alt="img" />
-                ) : (
-                  <img src={socialb} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("bonus")}>
+                <img src={social} alt="img" />
               </span>
             </span>
           </div>
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "flexible" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("flexible")}
-              >
-                {Tabvalue === "flexible" ? (
-                  <img src={policyb} alt="img" />
-                ) : (
-                  <img src={policy} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("flexible")}>
+                <img src={policyb} alt="img" />
               </span>
             </span>
           </div>
 
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "unlimited" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("unlimited")}
-              >
-                {Tabvalue === "unlimited" ? (
-                  <img src={advisor} alt="img" />
-                ) : (
-                  <img src={advisorb} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("unlimited")}>
+                <img src={advisor} alt="img" />
               </span>
             </span>
           </div>
 
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "zero" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("zero")}
-              >
-                {Tabvalue === "zero" ? (
-                  <img src={shareb} alt="img" />
-                ) : (
-                  <img src={share} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("zero")}>
+                <img src={shareb} alt="img" />
               </span>
             </span>
           </div>
 
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "wakala" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("wakala")}
-              >
-                {Tabvalue === "wakala" ? (
-                  <img src={policyb} alt="img" />
-                ) : (
-                  <img src={policy} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("wakala")}>
+                <img src={policy} alt="img" />
               </span>
             </span>
           </div>
 
           <div className="item ">
             <span className="whitebg">
-              <span
-                className={Tabvalue === "inclusive" ? "aboutactive" : "bgColor"}
-                onClick={() => myfun("inclusive")}
-              >
-                {Tabvalue === "inclusive" ? (
-                  <img src={social} alt="img" />
-                ) : (
-                  <img src={socialb} alt="img" />
-                )}
+              <span className="navimg" onClick={() => myfun("inclusive")}>
+                <img src={socialb} alt="img" />
               </span>
             </span>
           </div>
-
         </div>
       </div>
 

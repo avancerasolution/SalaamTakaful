@@ -27,97 +27,44 @@ const Governancesidebar = () => {
     <React.Fragment>
       <div>
         <div className="menu">
+          <div className="item"></div>
           <div className="item">
             <span className="whitebg">
-              <Link to="/" className="linkstyle">
-                <span className="navimg newabout">
-                  <span className="text1">Home</span>
-                  <img src={HomeIcon} alt="img" />
-                </span>
-              </Link>
-            </span>
-          </div>
-          <div className="item">
-            <span className="whitebg">
-              <span
-                className={
-                  Tabvalue === "board" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("board")}
-              >
-                {Tabvalue === "board" ? (
-                  <img src={board} alt="img" width="100" />
-                ) : (
-                  <img src={boardb} alt="img" width="100" />
-                )}
+              <span className="navimg" onClick={() => myfun("board")}>
+                <img src={board} alt="img" width="100" />
               </span>
             </span>
           </div>
           <div className="item ">
             <span className="whitebg">
-              <span
-                className={Tabvalue === "managment" ? "aboutactive" : "bgColor"}
-                onClick={() => myfun("managment")}
-              >
-                {Tabvalue === "managment" ? (
-                  <img src={management} alt="img" width="100" />
-                ) : (
-                  <img src={managementb} alt="img" width="100" />
-                )}
+              <span className="navimg" onClick={() => myfun("managment")}>
+                <img src={management} alt="img" width="100" />
               </span>
             </span>
           </div>
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "auditor" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("auditor")}
-              >
-                {Tabvalue === "auditor" ? (
-                  <img src={auditiorb} alt="img" width="100" />
-                ) : (
-                  <img src={auditior} alt="img" width="100" />
-                )}
+              <span className="navimg" onClick={() => myfun("auditor")}>
+                <img src={auditiorb} alt="img" width="100" />
               </span>
             </span>
           </div>
 
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "advisor" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("advisor")}
-              >
-                {Tabvalue === "advisor" ? (
-                  <img src={advisor} alt="img" width="100" />
-                ) : (
-                  <img src={advisorb} alt="img" width="100" />
-                )}
+              <span className="navimg" onClick={() => myfun("advisor")}>
+                <img src={advisor} alt="img" width="100" />
               </span>
             </span>
           </div>
 
           <div className="item iteminner">
             <span className="whitebg ">
-              <span
-                className={
-                  Tabvalue === "share" ? "aboutactive" : "bgColor"
-                }
-                onClick={() => myfun("share")}
-              >
-                {Tabvalue === "share" ? (
-                  <img src={shareb} alt="img" width="100" />
-                ) : (
-                  <img src={share} alt="img" width="100" />
-                )}
+              <span className="navimg" onClick={() => myfun("share")}>
+                <img src={shareb} alt="img" width="100" />
               </span>
             </span>
           </div>
-
         </div>
       </div>
 

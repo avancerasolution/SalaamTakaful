@@ -6,6 +6,7 @@ import Fade from "react-reveal/Fade";
 import MobileMenu from "../Common/MobileMenu";
 import { useState } from "react";
 import Readmore from "../Common/Readmore";
+import Aboutbg from "../assets/aboutbg.png"
 
 const About = () => {
   const [show, setshow] = useState(false);
@@ -17,7 +18,7 @@ const About = () => {
       ) : (
         <>
           <Fade right duration={1000}>
-            <div className=" AboutSection " >
+            <div className="" style={{ backgroundImage: `url(${Aboutbg})` }}>
               <Header show={show} setshow={setshow} />
               <div className="d-flex justify-content-between">
                 <SideBar />
@@ -27,7 +28,7 @@ const About = () => {
           </Fade>
         </>
       )}
-      <Readmore/>
+      <Readmore />
       <Footer />
     </React.Fragment>
   );
