@@ -47,7 +47,7 @@ const BuyNow = () => {
 
                   <div className="nextcall">
                     <span className="whitebg">
-                      <Link to="/governance">
+                      <Link to="#">
                         <span className="navimg">
                           <img src={phone} alt="img" />
                         </span>
@@ -61,7 +61,7 @@ const BuyNow = () => {
 
                       <div className="nextcall">
                         <span className="whitebg">
-                          <Link to="/governance">
+                          <Link to="#">
                             <span className="navimg">
                               <img src={chat} alt="img" />
                             </span>

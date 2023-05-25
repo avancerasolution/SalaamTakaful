@@ -24,7 +24,8 @@ const Header = ({ show, setshow }) => {
             </span>
             <span>
               {/* <img src={FaBar} alt="logo" /> */}
-              <RxHamburgerMenu onClick={() => setshow(true)} />
+              {/* <RxHamburgerMenu onClick={() => setshow(true)} /> */}
+              <RxHamburgerMenu />
             </span>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="col call_btn footerbottom">
           <div>
             <span className="whitebg">
-              <Link to="/governance">
+              <Link to="#">
                 <span className="navimg">
                   <img src={phone} alt="img" />
                 </span>
@@ -27,7 +27,7 @@ const Footer = () => {
           </Link>
           <div>
             <span className="whitebg">
-              <Link to="/governance">
+              <Link to="#">
                 <span className="navimg">
                   <img src={chat} alt="img" />
                 </span>
