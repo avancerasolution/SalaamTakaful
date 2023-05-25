@@ -4,6 +4,7 @@ import ReadMoreReact from "read-more-react";
 import data from "../Data";
 import { Fragment } from "react";
 import SwipeableViews from 'react-swipeable-views';
+import productbg from "../assets/productbg.png"
 
 const Supercharge = () => {
   const styles = {
@@ -21,18 +22,17 @@ const Supercharge = () => {
     <React.Fragment>
       <Fade bottom>
         <div>
-          <div className="section features aboutus supercharge zoominheaderabt">
+          <div className="section features aboutus supercharge zoominheaderabt" data-aos="fade-left" data-aos-duration="2000" style={{ backgroundImage: `url(${productbg})` }} >
             <div className="col-sm-12 homepagesec" >
               <SwipeableViews enableMouseEvents axis="y" containerStyle={styles.slideContainer}>
                 <div className="myheightmin" data-aos="fade-left" data-aos-duration="3000">
-                  <h2>An Overview of Our Takaful Plan </h2>
+                  <h2>Peace of mind knowing your family is taken care of</h2>
                 </div>
                 {data.Productoverview.map((item, index) => (
                   <Fragment>
                     <Fade left>
                       <div key={index} className='myheading' style={Object.assign({}, styles.slide, styles.slide1)}>
                         <div className="designtitle">
-                          <h3>{item.title}</h3>
                           <ReadMoreReact text={item.overview} min={150} ideal={280} max={350} readMoreText="read more" />
                         </div>
                       </div>

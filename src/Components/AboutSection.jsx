@@ -4,6 +4,7 @@ import ReadMoreReact from "read-more-react";
 import data from "../Data";
 import { Fragment } from "react";
 import SwipeableViews from 'react-swipeable-views';
+import Aboutbg from "../assets/aboutbg.png"
 
 const AboutSection = () => {
   const styles = {
@@ -21,7 +22,7 @@ const AboutSection = () => {
     <React.Fragment>
       <Fade bottom>
         <div>
-          <div className="section features aboutus zoominheaderabt" data-aos="fade-left" data-aos-duration="3000">
+          <div className="section features aboutus zoominheaderabt" data-aos="fade-left" data-aos-duration="2000" style={{ backgroundImage: `url(${Aboutbg})` }}>
 
 
 
@@ -33,36 +34,18 @@ const AboutSection = () => {
                     <div className='myheading' style={Object.assign({}, styles.slide, styles.slide1)} data-aos="fade-left" data-aos-duration="3000">
                       <div className="designtitle" data-aos="fade-left" data-aos-duration="3000">
                         <h3 >{item.title}</h3>
-                        <ReadMoreReact text={item.description} min={150} ideal={280} max={350} readMoreText="read more" />
+                        
                       </div>
                     </div>
 
                     <Fade right>
                       <div className='myheading' style={Object.assign({}, styles.slide, styles.slide1)}>
                         <div className="designtitle">
-                          <h3>Retakaful Arrangements & Partners</h3>
-                          <ReadMoreReact text={item.ratakfuldesc} min={250} ideal={380} max={450} readMoreText="read more" />
+                        <ReadMoreReact text={item.description} min={300} ideal={380} max={450} readMoreText="read more" />
                         </div>
                       </div>
                     </Fade>
 
-                    <Fade left>
-                      <div className='myheading' style={Object.assign({}, styles.slide, styles.slide1)} >
-                        <div className="designtitle">
-                          <h3>CEO Message</h3>
-                          <ReadMoreReact text={item.ceomessage} min={250} ideal={380} max={450} readMoreText="read more" />
-                        </div>
-                      </div>
-                    </Fade>
-
-                    <Fade right>
-                      <div className='myheading' style={Object.assign({}, styles.slide, styles.slide1)}>
-                        <div className="designtitle">
-                          <h3>NTN Number and Registration Certificate </h3>
-                          <ReadMoreReact text={item.ntn} min={250} ideal={380} max={450} readMoreText="read more" />
-                        </div>
-                      </div>
-                    </Fade>
 
                   </SwipeableViews>
                 </div>

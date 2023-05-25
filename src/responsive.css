@@ -198,7 +198,6 @@ body {
   }
 
   span.text {
-    background: rgba(14, 118, 188, 0.6);
     height: 54px;
     border-radius: 10px 0px 0px 10px;
     padding: 0 15px;
@@ -214,10 +213,9 @@ body {
   }
 
   .navimg {
-    background: rgba(14, 118, 188, 0.6);
     color: var(--frontfont);
-    height: 54px;
-    width: 65px;
+    height: 80px !important;
+    width: 80px;
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -239,11 +237,11 @@ body {
 
   .menu .navimg {
 
-    transition: all 700ms ease-in-out;
+    /* transition: all 700ms ease-in-out;
     background: linear-gradient(360deg, #0E76BC 2.94%, #0E76BC 84.97%, rgba(14, 118, 188, 0.53) 95.59%);
-    box-shadow: 0px 5.17483px 10.3497px #9C9A9C;
-    border-radius: 43.986px;
-    border: 2px solid #0E76BC;
+    box-shadow: 0px 5.17483px 10.3497px #9C9A9C; */
+    /* border-radius: 43.986px; */
+    /* border: 2px solid #0E76BC; */
   }
 
   .menu:hover .navimg {
@@ -501,7 +499,6 @@ body {
   }
 
   .fordesktop {
-    background-image: url("./assets/buynowinner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -510,38 +507,27 @@ body {
     overflow: hidden;
   }
 
-  .innerbuyNow {
-    background: #0e76bc;
-    border-radius: 68px;
-    width: 48%;
-    margin: 0 auto;
-    margin-top: 100px;
-    height: auto !important;
-  }
+.buynowpage {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Buynowform h4 {
+  padding-left: 20px;
+  z-index: 99999;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 96%;
+  color: #FFFFFF;
+}
+.Buynowform {
+  display: block;
+  width: 100%;
+}
 
-  .buyNowHeader {
-    height: 100px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    margin: 0 auto;
-    width: 99%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-  }
 
-  .buyNowHeader>h4 {
-    font-family: "Proxima Nova";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-
-    text-transform: uppercase;
-
-    color: #0e76bc;
-  }
 
   .form {
     margin-top: 30px;
@@ -602,7 +588,9 @@ body {
   }
 
   .formSubmit> :last-child {
-    background: var(--green);
+    background: linear-gradient(360deg, #0E76BC 2.94%, #00A79D 84.97%, #00A651 95.59%);
+    align-items: center;
+    justify-content: center;
   }
 
   /* product features  */
@@ -654,10 +642,12 @@ body {
   /* css */
 
   .homepagesec h2 {
-    color: #fff;
-    /* padding-top: 80px; */
-    padding-right: 60px;
-    font-weight: 800;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px !important;
+      line-height: 96%;
+      color: #FFFFFF;
+
   }
 
   .homepagesec p {
@@ -683,7 +673,7 @@ body {
   }
 
   .main1:before {
-    content: "";
+    content: unset !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -763,7 +753,7 @@ body {
   }
 
   .aboutus:before {
-    content: "";
+    content: unset !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -857,7 +847,7 @@ body {
   }
 
   .details:before {
-    content: "";
+    content: unset !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -910,12 +900,7 @@ body {
     cursor: pointer;
   }
 
-  .board {
-    background-image: url("../src/assets/board.PNG") !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-  }
+
 
   .managment {
     background-image: url("../src/assets/Managment.PNG") !important;
@@ -1119,10 +1104,10 @@ body {
     font-weight: 900 !important;
   }
 
-  .navimg,
+  /* .navimg,
   span.text {
     background: rgb(14 118 188 / 92%) !important;
-  }
+  } */
 
   .heightcontrol h3 {
     background: #00000061;
@@ -1179,10 +1164,7 @@ body {
     font-style: normal;
   }
 
-  .call_btn>a>button {
-    border-radius: 0 !important;
-    width: 102vw !important;
-  }
+
 
   .call_btn>a>button img {
     width: 27px;
@@ -1339,9 +1321,6 @@ body {
     font-weight: 400;
     font-size: 48px;
     line-height: 96%;
-
-
-
     color: #FFFFFF;
 
   }
@@ -1386,7 +1365,7 @@ body {
 
   .call_btn>a>button {
     border-radius: 50px !important;
-    width: 60vw !important;
+    width: 60vw ;
   }
 
   .call_btn>button>img {
@@ -1441,15 +1420,12 @@ body {
     align-items: center;
     transition: all 700ms ease-in-out;
     position: relative;
-    border: 1px solid;
-    box-shadow: 0px 5.17483px 10.3497px #9C9A9C;
-    margin-top: 10px;
-    border: 5px solid #0069bd;
     border-radius: 50px;
+    z-index: 999999;
   }
 
   span.text {
-    background: rgba(14, 118, 188, 0.6);
+    /* background: rgba(14, 118, 188, 0.6); */
     height: 54px;
     border-radius: 10px 0px 0px 10px;
     padding: 0 15px;
@@ -1465,10 +1441,9 @@ body {
   }
 
   .navimg {
-    background: rgba(14, 118, 188, 0.6);
     color: var(--frontfont);
-    height: 54px;
-    width: 60px;
+    height: 80px !important;
+    width: 80px;
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -1725,42 +1700,17 @@ body {
     overflow: hidden;
   }
 
-  .innerbuyNow {
-    background-image: url("./assets/buynowinner.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* overflow-y: hidden; */
-    height: 86vh !important;
-    margin: -40px auto;
-    width: 95%;
-    overflow-x: hidden;
-    border-radius: 28px;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-  }
 
-  .buyNowHeader {
-    height: 100px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    margin: 0 auto;
-    width: 99%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-  }
+
 
   .buyNowHeader>h4 {
-    font-family: "Proxima Nova";
+    padding-left: 20px;
+    z-index: 99999;
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-
-    text-transform: uppercase;
-
-    color: #0e76bc;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 96%;
+    color: #FFFFFF;
   }
 
   .form {
@@ -1769,7 +1719,7 @@ body {
 
   .innerbuyNow>div>input {
     border-radius: 30px;
-    width: 80vw;
+    width: 95vw;
     height: 60px;
     margin: 18px auto;
     border: none;
@@ -1793,7 +1743,9 @@ body {
   }
 
   .formSubmit> :last-child {
-    background: var(--green);
+    background: linear-gradient(360deg, #0E76BC 2.94%, #00A79D 84.97%, #00A651 95.59%);
+    align-items: center;
+    justify-content: center;
   }
 
   /* product features  */
@@ -1839,7 +1791,7 @@ body {
   .homepagesec h2 {
     color: #fff;
     padding-top: 0px !important;
-    padding-right: 60px;
+    padding-right: 70px;
     font-weight: 800;
   }
 
@@ -1897,8 +1849,8 @@ body {
   }
 
   .menu {
-    top: 24% !important;
-    gap: 7px !important;
+    top: 15% !important;
+    gap: 0px !important;
   }
 
   .aboutus h3 {
@@ -2012,7 +1964,7 @@ body {
   }
 
   .shariah:before {
-    content: "";
+    content: unset !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -2064,7 +2016,7 @@ body {
   }
 
   .coc:before {
-    content: "";
+    content: unset !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -2083,7 +2035,7 @@ body {
   }
 
   .board {
-    background-image: url("../src/assets/board.PNG") !important;
+    background-image: url("../src/assets/board.PNG") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -2135,7 +2087,7 @@ body {
   }
 
   .supercharge {
-    background-image: url("../src/assets/productbg.png") !important;
+    background-image: url("../src/assets/productbg.png") ;
     background-position-x: center;
   }
 
@@ -2290,11 +2242,11 @@ body {
     z-index: 99999999 !important;
     font-weight: 900 !important;
   }
-
+/* 
   .navimg,
   span.text {
     background: rgb(14 118 188 / 92%) !important;
-  }
+  } */
 
   .heightcontrol h3 {
     background: #00000061;
@@ -2424,7 +2376,7 @@ body {
 
   button.btn-scroll {
     position: fixed;
-    bottom: 10%;
+    bottom: 12%;
     left: 0%;
     background: unset;
     border: unset;
@@ -2439,10 +2391,18 @@ body {
   }
 
   .designtitle h3 {
-    color: #00a651;
-    font-weight: 800;
-    font-size: 18px !important;
-    line-height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px !important;
+    line-height: 96%;
+    color: #FFFFFF;
+  }
+  .designtitle h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px !important;
+    line-height: 96%;
+    color: #FFFFFF;
   }
 
   .designtitle h3 {
@@ -2452,7 +2412,7 @@ body {
 
   .col.call_btn.footerbottom {
     position: fixed;
-    bottom: 1%;
+    bottom: 2%;
     width: 100%;
     z-index: 9999999;
   }
@@ -2502,7 +2462,7 @@ body {
   .col-sm-12.homepagesec .display-text-group {
     color: #fff;
     overflow-y: scroll;
-    height: 310px;
+    height: 450px;
   }
 
   .myheightmin {
@@ -2517,8 +2477,10 @@ body {
   }
 
   .menu img {
-    width: 100%;
-    padding: 3px;
+    width: 60%;
+    padding: 2px;
+    position: relative;
+    top: -8px;
   }
 
   .zoominheader {
@@ -2538,7 +2500,7 @@ body {
   }
 
   /* Zoom in Keyframes */
-  @-webkit-keyframes zoomin {
+  /* @-webkit-keyframes zoomin {
     0% {
       transform: scale(0.98);
     }
@@ -2564,7 +2526,7 @@ body {
     100% {
       transform: scale(0.98);
     }
-  }
+  } */
 
   .zoominheaderabt {
     /* position: relative;
@@ -2646,6 +2608,95 @@ body {
   .zindex {
     z-index: 999999;
   }
+  .navimg, span.text {
+    border-radius: 60px;
+    justify-content: center;
+}
+.footerbottom button {
+  border: 5px solid #0E76BC !important;
+  width: 60vw !important;
+  height: 8vh !IMPORTANT;
+  font-family: 'Nanum Gothic', sans-serif !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+}
+.col.call_btn.footerbottom div {
+  margin: 0 0px;
+  position: relative;
+  top: 15px;
+
+}
+.react-reveal {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu .navimg, span.navimg{
+  background-image: url('../src/assets/bgicon.png') !important;
+  background-position: center;
+  border-radius: 0 !important;
+}
+span.navimg img{
+  position: relative;
+  top: -7px;
+}
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+p, span{
+  font-family: 'Inter', sans-serif;
+  font-size: 17px !important;
+}
+button.btn-scroll img {
+  width: 15%;
+}
+.hometext{
+  display: flex;
+  align-items: center;
+}
+.hometext .display-text-group {
+  padding-left: 15px;
+  padding-right: 50px;
+}
+.col.call_btn.footerbottom img {
+  width: 50% !important;
+}
+.buynowpage .footerbottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -20%;
+  margin-top: 25%;
+}
+.footerbottom.submitform{
+  display: block;
+  justify-content: center;
+  margin-bottom: -20%;
+  margin-top: 10% !important;
+}
+.submitform .formSubmit button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px !important;
+  width: 150px !important;
+  font-size: 18px !important;
+}
+.formSubmit> :last-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerbuyNow>div>input {
+  margin: 4px auto !important;
+}
+.react-reveal.innerbuyNow.next input {
+  margin-bottom: 10px !important;
+}
+.Buynowform .nextcall{
+  position: relative;
+  top: 5px;
+  margin: 0 -5px;
+}
 }
 
 @media only screen and (max-width: 380px) {
@@ -2659,4 +2710,24 @@ body {
   .swiper-pagination-fraction {
     bottom: 23% !important;
   }
+  .col-sm-12.homepagesec .display-text-group {
+    color: #fff;
+    overflow-y: scroll;
+    height: 300px !important;
+}
+.buynowpage .footerbottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5%;
+  margin-top: 10%;
+}
+.footerbottom.submitform{
+  display: block;
+  justify-content: center;
+  margin-bottom: -10%;
+  margin-top: 3% !important;
+}
+.innerbuyNow>div>input {
+  margin: 4px auto !important;
+}
 }

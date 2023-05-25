@@ -76,16 +76,31 @@ const Governancesidebar = () => {
 function Tab({ value }) {
   if (value === "board") {
     return <Board />;
-  } else if (value === "managment") {
-    return <Managment />;
-  } else if (value === "auditor") {
-    return <Auditor />;
-  } else if (value === "advisor") {
-    return <Advisor />;
-  } else if (value === "share") {
-    return <Shareholding />;
+  } else if (value === "board") {
+    return <Board />;
+  } else if (value === "board") {
+    return <Board />;
+  } else if (value === "board") {
+    return <Board />;
+  } else if (value === "board") {
+    return <Board />;
   } else {
     return <Board />;
   }
 }
+// function Tab({ value }) {
+//   if (value === "board") {
+//     return <Board />;
+//   } else if (value === "managment") {
+//     return <Managment />;
+//   } else if (value === "auditor") {
+//     return <Auditor />;
+//   } else if (value === "advisor") {
+//     return <Advisor />;
+//   } else if (value === "share") {
+//     return <Shareholding />;
+//   } else {
+//     return <Board />;
+//   }
+// }
 export default Governancesidebar;

@@ -53,19 +53,9 @@ const Supercharge = () => {
                 {data.Usp1.map((item, index) => (
                   <Fragment>
                     <Fade right>
-                      <div
-                        key={index}
-                        className="myheading"
-                        style={Object.assign({}, styles.slide, styles.slide1)}
-                      >
+                      <div  key={index}  className="myheading"  style={Object.assign({}, styles.slide, styles.slide1)}  >
                         <div className="designtitle">
-                          <ReadMoreReact
-                            text={item.overview}
-                            min={150}
-                            ideal={280}
-                            max={350}
-                            readMoreText="read more"
-                          />
+                          <ReadMoreReact text={item.overview}  min={150}  ideal={280}  max={350} readMoreText="read more"  />
                         </div>
                       </div>
                     </Fade>

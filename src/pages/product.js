@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import MobileMenu from "../Common/MobileMenu";
 import { useState } from "react";
 import Readmore from "../Common/Readmore";
-import productbg from "../assets/productbg.png"
+
 
 
 const Product = () => {
@@ -19,7 +19,7 @@ const Product = () => {
             ) : (
                 <>
                     <Fade right duration={1000}>
-                        <div className="container-fluid AboutSection" style={{ backgroundImage: `url(${productbg})` }} >
+                        <div className="container-fluid AboutSection">
                             <Header show={show} setshow={setshow} />
                             <div className="d-flex justify-content-between">
                                 <SideBar />

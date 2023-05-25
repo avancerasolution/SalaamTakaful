@@ -68,14 +68,28 @@ const SideBar = () => {
 function Tab({ value }) {
   if (value === "about") {
     return <AboutSection />;
-  } else if (value === "arrange") {
-    return <AboutArrange />;
-  } else if (value === "esg") {
-    return <AboutEsg />;
-  } else if (value === "esgs") {
-    return <AboutEsgs />;
+  } else if (value === "about") {
+    return <AboutSection />;
+  } else if (value === "about") {
+    return <AboutSection />;
+  } else if (value === "about") {
+    return <AboutSection />;
   } else {
     return <AboutSection />;
   }
 }
+
+// function Tab({ value }) {
+//   if (value === "about") {
+//     return <AboutSection />;
+//   } else if (value === "arrange") {
+//     return <AboutArrange />;
+//   } else if (value === "esg") {
+//     return <AboutEsg />;
+//   } else if (value === "esgs") {
+//     return <AboutEsgs />;
+//   } else {
+//     return <AboutSection />;
+//   }
+// }
 export default SideBar;

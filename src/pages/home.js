@@ -7,6 +7,7 @@ import { useState } from "react";
 import MobileMenu from "../Common/MobileMenu";
 import Homepage from "../Components/Homepage";
 import Fade from "react-reveal/Fade";
+import Readmore from "../Common/Readmore";
 
 const Home = () => {
   const [show, setshow] = useState(false);
@@ -32,7 +33,7 @@ const Home = () => {
         }
 
       </Fade>
-
+        <Readmore/>
       <Footer />
     </React.Fragment>
   )

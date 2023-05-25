@@ -45,7 +45,7 @@ const ProductSidebar = () => {
             </span>
           </div>
 
-          <div className="item">
+          {/* <div className="item">
             <span className="whitebg">
               <Link to="/usp" className="linkstyle">
                 <span className="navimg">
@@ -53,7 +53,7 @@ const ProductSidebar = () => {
                 </span>
               </Link>
             </span>
-          </div>
+          </div> */}
 
           <div className="item iteminner">
             <span className="whitebg ">
@@ -97,18 +97,35 @@ const ProductSidebar = () => {
 function Tab({ value }) {
   if (value === "overview") {
     return <Productoverview />;
-  } else if (value === "usp") {
-    return <ProductUsp />;
-  } else if (value === "additional") {
-    return <Additional />;
-  } else if (value === "suplimentary") {
-    return <Suplimentary />;
-  } else if (value === "investment") {
-    return <Investment />;
-  } else if (value === "charge") {
-    return <Charge />;
+  } else if (value === "overview") {
+    return <Productoverview />;
+  } else if (value === "overview") {
+    return <Productoverview />;
+  } else if (value === "overview") {
+    return <Productoverview />;
+  } else if (value === "overview") {
+    return <Productoverview />;
+  } else if (value === "overview") {
+    return <Productoverview />;
   } else {
-    return <Board />;
+    return <Productoverview />;
   }
 }
+// function Tab({ value }) {
+//   if (value === "overview") {
+//     return <Productoverview />;
+//   } else if (value === "usp") {
+//     return <ProductUsp />;
+//   } else if (value === "additional") {
+//     return <Additional />;
+//   } else if (value === "suplimentary") {
+//     return <Suplimentary />;
+//   } else if (value === "investment") {
+//     return <Investment />;
+//   } else if (value === "charge") {
+//     return <Charge />;
+//   } else {
+//     return <Board />;
+//   }
+// }
 export default ProductSidebar;

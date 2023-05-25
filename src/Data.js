@@ -24,12 +24,8 @@ const data = {
     ],
     About: [
         {
-            "title": "Revolutionizing Takaful with Cutting-Edge Technology – Learn About Us)",
-            "description": "At Salaam Family Takaful Limited, we are committed to revolutionizing the world of takaful with our state-of-the-art technology and digital solutions. As Pakistan's premier digital takaful company, we are leading the way in providing a seamless and easy-to-use online experience to our customers. We understand that our customers' needs are different, and that's why we offer a range of customized takaful products, ensuring that our customers receive the protection they need for themselves and their loved ones. Our dedication to providing unparalleled customer service is what sets us apart from other takaful companies. We strive to deliver exceptional value to our customers by offering them high-quality products that are designed to meet their unique needs.",
-            "subdescription": "We believe in providing a user-friendly and accessible digital experience to our customers, making takaful accessible to everyone. We understand that takaful can be a complex and unfamiliar concept to many, and that's why we strive to simplify the process, so our customers can protect their future with ease. At Salaam Family Takaful Limited, we are committed to enabling our customers to safeguard their future and that of their loved ones, and we believe that our digital takaful solutions are the best way to achieve this.",
-            "ratakfuldesc":"RLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "ceomessage":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "ntn":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            "title": "Experience Seamless Protection with Salaam Life & Savings",
+            "description": "With a strong lineage and a success story of being Pakistan's first and only Islamic Insurtech, Salaam Life & Savings comes with a promise - of delivering exceptional value, customer services and offerings. At Salaam Life & Savings, the commitment to revolutionize the world of takaful is a given.  We understand that our customers' needs are different, and that's why we offer a range of customized takaful products, ensuring that our customers receive the protection they need for themselves and their loved ones. What sets us apart from other takaful companies is our whole-hearted dedication geared towards your needs and requirements, backed by trust, because we provide the most user-friendly and accessible digital experience to our customers, making takaful accessible to everyone. At Salaam Life & Savings, believe in the world of possibilities because we know how to deliver, and when!",
         }
     ],
 
@@ -61,24 +57,9 @@ const data = {
     Board: [
         {
             "title": "Syed Rizwan Hussain",
-            "boarddesc": "Mr. Rizwan Hussain is a seasoned professional par excellence, possessing an immaculate experience of more than 30 years in a wide range of various leadership roles in local and foreign insurance enterprises, Mr. Rizwan’s name is well known in the corporate world. From the initial responsibilities and successes in product innovation and business network accumulation, he reached towering heights of accomplishments through his exquisite style of work and was soon given the reigns of multiple departments quite early in his career. He assumed the role of Managing Director and CEO of Salaam Takaful Limited in the year 2018 and since day one, has kept his focus to grow, adapt and innovate within the industry, to define the future of insurance / takaful, deliver second-to-none experiences for customers, and help to build resilient communities with utmost transparency with zero compromise on corporate governance. His vision has always been to develop an organization which is the role model for the entire industry.He also serves as Non-Executive Director on the Board of Amana Takaful Insurance, Sri Lanka. He is a certified Board Director.",
+            "boarddesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         },
-        {
-            "title": "Syed Salman Hussain",
-            "boarddesc": "Mr. Salman Hussain graduated from NED University, Karachi in mechanical engineering and holds a Master’s in Business from Cranfield University, United Kingdom. He is the Founder and CEO of iTecknologi Group of Companies which has emerged as one of the leading technology conglomerates in Pakistan. He brings a technology skillset to the Board. Mr. Salman has extensive management consulting experience with McKinsey Middle East and has provided consultations to various state-owned and private firms in the Middle East and across the region as well as International Finance Corporation, and World Bank. He is a certified Board Director.",
-        },
-        {
-            "title": "Irum Saba",
-            "boarddesc": "Dr. Irum Saba has more than 17 years of progressive regulatory, research, training, and teaching experience with organizations of international repute. Currently, she is in Institute of Business Administration (IBA), Karachi working as an Associate Professor in the Department of Finance and Program Director of MS Islamic Banking and Finance. She has the honor to be the first Pakistani female to be part of the International Shariah Advisory Board in South East Asia and Middle East. Recently, she has been awarded the title of WOMENi Pakistan in recognition of her contribution to the Islamic Finance Industry in Pakistan and internationally. Furthermore, Dr. Irum Saba has also been included in the prestigious list of top 10 Influential Women in Islamic Business & Finance 2021. She is a Chartered Islamic Finance Professional (CIFP) with a PhD in Islamic Finance from INCEIF. She is also member of the Grand Council of the Chartered Institute of Islamic Finance Professionals (CIIF), Malaysia, and a Shari’ah-registered financial planner (Shari’ah RFP). She holds a Masters and PGD in Islamic banking and insurance from the Institute of Islamic Banking and Insurance (IIBI), London. Dr. Irum has authored several articles and book chapters on management, corporate governance, and Islamic finance and microfinance. She is a certified Board Director.",
-        },
-        {
-            "title": "Mr. Salim Habib Godil",
-            "boarddesc": "Mr. Salim Habib Godil is a quintessential entrepreneur with business interests in automotive, construction and real estate, transportation and mobility, travel, and security solutions, including ownership of the country’s largest Toyota retail dealership. He also serves as Chairman of Pak Limousine Services which is the pioneer of the radio cab business in Pakistan as well as Chairman of Armored Vehicles Pakistan (formerly Striet Pakistan) which is the largest privately owned armored vehicle manufacturer in the country. Mr. Godil is the recipient of the Hilal-e-Imtiaz which is one of the highest civilian awards in Pakistan given in recognition of outstanding contribution to significant public endeavors. He was also given the FBR’s Highest Taxpayer Award 2019 which is awarded to the country's top taxpayers identified by the Federal Board of Revenue. He is a certified Board Director.",
-        },
-        {
-            "title": "Shahzad Salim Godil ",
-            "boarddesc": "Mr. Shahzad Salim Godil graduated from Clark University, Massachusetts in 2008 in business management, economics and entrepreneurship. He has been associated with a highly renowned conglomerate of Pakistan and serves in the capacity of Director, playing an instrumental role in the Group’s diversification into construction, transportation and mobility, and travel. He brings an entrepreneurial mindset to the Board. Shahzad Godil serves as Director in Toyota Central Motors, Toyota Society Motors, Toyota Shahra-e-Faisal, Pak Limousine Services, Armored Vehicles Pakistan (formerly Striet Pakistan), Metro Security Services (Pvt.) Ltd, Central Facilitation Agency (Pvt.) Ltd, Automall and Central Builders and Developers. He is a certified Board Director.            ",
-        },
+       
     ],
 
     Managment: [
@@ -140,8 +121,8 @@ const data = {
     ],
     Productoverview: [
         {
-            "title": "Invest With Heart: Our Shariah-Compliant Takaful Solution Combines Profit And Purpose",
-            "overview": "Our cutting-edge Individual Family Takaful Plan offers an exceptional opportunity for you to unlock financial security and peace of mind. Our Shari'ah-compliant solution is tailored to fit the unique needs of individuals from all walks of life, providing comprehensive coverage that stands by you, no matter what life throws your way.With our Individual Family Takaful Plan, you can invest in your own growth and success, ensuring a brighter future for you and your loved ones. Our plan is designed to offer comprehensive coverage, including death benefits, accidental death and disability, and critical illness coverage, among others.At our company, we understand that every individual is unique and has different financial needs. That's why our Individual Family Takaful Plan is designed to be flexible and customizable, so you can choose the coverage that's right for you. We take the time to listen to our customers and work closely with them to create a personalized plan that meets their unique needs.Our Individual Family Takaful Plan is not just an investment in your financial future, but in your peace of mind as well. With our Shari'ah-compliant solution, you can be confident that your investments are ethically sound and in line with your values. We understand the importance of building trust with our customers, and we work hard to maintain it by delivering on our promises and providing exceptional customer service.Our cutting-edge Individual Family Takaful Plan is a comprehensive, customizable solution that offers exceptional coverage and peace of mind. It's an investment in your financial future and your values, ensuring that you and your loved ones are protected no matter where life takes you.            ",
+            "title": "Peace of mind knowing your family is taken care of",
+            "overview": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  ",
         }
         
     ],
@@ -337,6 +318,13 @@ const data = {
             "title": "SOCIAL",
             "description": "Takaful is based on the idea of social protection and mutual cooperation, which aligns with our mission to uplift society. Our contributions to the community include health and wellness camps, parametric-based crops for farmers' resilience, and the MTO program for Madaris graduates, impacting thousands of lives through our health programs."
         }
-    ]
+    ],
+
+    Homepage: [
+        {
+            "title": "Welcome to Salaam Life & Savings ",
+            "description": "Hello there, we are a revolutionary force in the world of takaful, leading the way as Pakistan's premier digital takaful company. Utilizing state-of-the-art technology, Salaam Life & Savings offers its customers a seamless and easy-to-use online experience. With a mission to bring takaful to the masses in Pakistan, we offer an array of diverse takaful products, tailored to meet the unique needs of each individual customer. We promise an unparalleled customer service that deliver products offering exceptional value. Here we are - Salaam Life & Savings. Feel welcomed, the journey has just begun!"
+        }
+    ],
 }
 export default data;

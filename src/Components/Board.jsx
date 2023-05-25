@@ -4,6 +4,7 @@ import ReadMoreReact from "read-more-react";
 import data from "../Data";
 import { Fragment } from "react";
 import SwipeableViews from 'react-swipeable-views';
+import productbg from "../assets/governancebg.png"
 
 const Board = () => {
   const styles = {
@@ -22,7 +23,7 @@ const Board = () => {
     <React.Fragment>
       <Fade bottom>
         <div>
-          <div className="section features aboutus board zoominheaderabt">
+          <div className="section features aboutus board zoominheaderabt" style={{ backgroundImage: `url(${productbg})` }} >
 
 
             <div className="col-sm-12 homepagesec" >
@@ -38,7 +39,6 @@ const Board = () => {
                     <Fade left>
                       <div key={index} className='myheading' style={Object.assign({}, styles.slide, styles.slide1)}>
                         <div className="designtitle">
-                          <h3>{item.title}</h3>
                           <ReadMoreReact text={item.boarddesc} min={150} ideal={280} max={350} readMoreText="read more" />
                         </div>
                       </div>

@@ -21,7 +21,7 @@ const Footer = () => {
 
           <Link to="/buynow">
             <button>
-              <img src={BuyNow} alt="call" />
+              {/* <img src={BuyNow} alt="call" /> */}
               Buy Now
             </button>
           </Link>

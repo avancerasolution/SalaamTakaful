@@ -1,7 +1,12 @@
 import React, { Fragment, useState } from "react";
 import { Fade } from "react-reveal";
 import { useNavigate } from "react-router-dom";
-import Header from "../Common/Header";
+import Header from "../Components/AboutHeader";
+import Homebg from "../assets/buynowbg.png";
+import phone from "../assets/Phone.png";
+import chat from "../assets/Chat Room (1).png";
+import { Link } from "react-router-dom";
+
 
 const BuyNow = () => {
   const navigate = useNavigate();
@@ -9,70 +14,27 @@ const BuyNow = () => {
   const [show, setshow] = useState(false);
 
   return (
-    <Fragment>
-      <div className="formHeader">
+
+
+<>
+      <div className="">
         <Header />
       </div>
-      <div className="buyNowMain fordesktop">
-        {!show ? (
-          <>
-            <Fade left>
-              <div className="innerbuyNow">
-                <h4> Customer information </h4>
-                <div className="form">
-                  <input placeholder="First Name" />
+<Fragment>
+<Fade left>
+  <div className="container">
+    <div className="row">
+      <div className="col-sm-12 homepagesec buynowpage" style={{ backgroundImage: `url(${Homebg})` }}>
 
-                  <input placeholder="Last Name" />
-
-                  <input placeholder="Gender" />
-
-                  <input placeholder="Date of Birth" />
-                  <span className=" formSubmit">
-                    <button onClick={() => navigate("/")}>Back </button>
-
-                    <button onClick={() => setshow(true)}>Next</button>
-                  </span>
-                </div>
-              </div>
-            </Fade>
-          </>
-        ) : (
-          <>
-            <Fade right>
-              <div className="innerbuyNow  innerbuyNow1">
-                <h4> Plan Informations</h4>
-                <div className="form">
-                  <input placeholder="Contribution" />
-
-                  <input placeholder="Contribution Frequency" />
-
-                  <input placeholder="Cover Multiple" />
-
-                  <input placeholder="Contribution Term" />
-                  <input placeholder="Benefit Term" />
-                  <input placeholder="Face Value" />
-
-                  <span className=" formSubmit">
-                    <button onClick={() => setshow(false)}> back</button>
-                    <button onClick={() => setshow(true)}>Submit</button>
-                  </span>
-                </div>
-              </div>
-            </Fade>
-          </>
-        )}
-      </div>
-
-      {/* Buy Now for mobile */}
-      <div className="buyNowMain formoblie">
+      <div className=" Buynowform">
         {!show ? (
           <>
             {" "}
             <Fade left>
-              <div className="buyNowHeader">
+              <div className="">
                 <h4> Customer information</h4>
               </div>
-              <div className="innerbuyNow">
+              <div className="innerbuyNow next">
                 <div className="form">
                   <input placeholder="First Name" />
 
@@ -82,11 +44,30 @@ const BuyNow = () => {
 
                   <input placeholder="Date of Birth" />
                   <div className="footerbottom">
-                    <div className="formSubmit ">
-                      <button onClick={() => navigate("/")}>Back </button>
 
+                  <div className="nextcall">
+                    <span className="whitebg">
+                      <Link to="/governance">
+                        <span className="navimg">
+                          <img src={phone} alt="img" />
+                        </span>
+                      </Link>
+                    </span>
+                  </div>
+                    <div className="formSubmit ">
+                      {/* <button onClick={() => navigate("/")}>Back </button> */}
                       <button onClick={() => setshow(true)}>Next</button>
                     </div>
+
+                      <div className="nextcall">
+                        <span className="whitebg">
+                          <Link to="/governance">
+                            <span className="navimg">
+                              <img src={chat} alt="img" />
+                            </span>
+                          </Link>
+                        </span>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -109,7 +90,7 @@ const BuyNow = () => {
                 <input placeholder="Contribution Term" />
                 <input placeholder="Benefit Term" />
                 <input placeholder="Face Value" />
-                <div className="footerbottom">
+                <div className="footerbottom submitform">
                   <div className="formSubmit">
                     <button onClick={() => setshow(false)}> back</button>
                     <button onClick={() => setshow(true)}>Submit</button>
@@ -120,7 +101,18 @@ const BuyNow = () => {
           </Fade>
         )}
       </div>
-    </Fragment>
+
+      </div>
+    </div>
+  </div>
+</Fade>
+</Fragment>
+     
+  
+
+      </>
+
+
   );
 };
 

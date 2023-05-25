@@ -25,7 +25,7 @@ const SideBar = () => {
 
           <div className="item">
             <span className="whitebg">
-              <Link to="/governance">
+              <Link to="/product">
                 <span className="navimg">
                   <img src={protection} alt="img" />
                 </span>
@@ -34,7 +34,7 @@ const SideBar = () => {
           </div>
           <div className="item ">
             <span className="whitebg">
-              <Link to="/product">
+              <Link to="/governance">
                 <span className="navimg">
                   <img src={premiumq} alt="img" />
                 </span>
