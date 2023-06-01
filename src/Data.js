@@ -324,6 +324,16 @@ const data = {
         {
             "title": "Welcome to Salaam Life & Savings ",
             "description": "Hello there, we are a revolutionary force in the world of takaful, leading the way as Pakistan's premier digital takaful company. Utilizing state-of-the-art technology, Salaam Life & Savings offers its customers a seamless and easy-to-use online experience. With a mission to bring takaful to the masses in Pakistan, we offer an array of diverse takaful products, tailored to meet the unique needs of each individual customer. We promise an unparalleled customer service that deliver products offering exceptional value. Here we are - Salaam Life & Savings. Feel welcomed, the journey has just begun!"
+        },
+
+        {
+            "title": "Welcome to  Savings ",
+            "description": "Hello there, we are a revolutionary force in the world of takaful, leading the way as Pakistan's premier digital takaful company. Utilizing state-of-the-art technology, Salaam Life & Savings offers its customers a seamless and easy-to-use online experience. With a mission to bring takaful to the masses in Pakistan, we offer an array of diverse takaful products, tailored to meet the unique needs of each individual customer. We promise an unparalleled customer service that deliver products offering exceptional value. Here we are - Salaam Life & Savings. Feel welcomed, the journey has just begun!"
+        },
+
+        {
+            "title": "Welcome to Salaam Life &  ",
+            "description": "Hello there, we are a revolutionary force in the world of takaful, leading the way as Pakistan's premier digital takaful company. Utilizing state-of-the-art technology, Salaam Life & Savings offers its customers a seamless and easy-to-use online experience. With a mission to bring takaful to the masses in Pakistan, we offer an array of diverse takaful products, tailored to meet the unique needs of each individual customer. We promise an unparalleled customer service that deliver products offering exceptional value. Here we are - Salaam Life & Savings. Feel welcomed, the journey has just begun!"
         }
     ],
 }

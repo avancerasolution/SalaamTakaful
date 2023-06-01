@@ -2697,6 +2697,27 @@ button.btn-scroll img {
   top: 5px;
   margin: 0 -5px;
 }
+/* newcss */
+.mainslider, .swiper-slider{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zoom-in-zoom-out {
+  animation: zoom-in-zoom-out 0.7s ease-out ;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 }
 
 @media only screen and (max-width: 380px) {

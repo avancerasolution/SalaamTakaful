@@ -19,7 +19,7 @@ const Home = () => {
 
 
           <div className="container-fluid main">
-
+          <Header setshow={setshow} />
             <SideBar />
             <Homepage setshow={setshow} />
             <LeftSideBar />
