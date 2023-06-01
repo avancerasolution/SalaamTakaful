@@ -7,7 +7,7 @@ export default function Loader() {
     <Fragment>
         <div className='container-fluid'>
             <div className='row preloader'>
-            <div className='imagepre col-sm-12 ' ><img src={Logo}  data-aos="fade-down" data-aos-duration="2000" />
+            <div className='imagepre col-sm-12 ' ><img src={Logo}  data-aos="fade-down" data-aos-duration="2000" className='zoom-in-zoom-outa'/>
             <div data-aos="fade-down" data-aos-duration="2000">
             {<Typewriter options={{ strings: ['Welcome to Takaful World'], autoStart: true, loop: true,delay: 75, }} />}
             </div>

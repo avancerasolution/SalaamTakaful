@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../Common/Footer";
-import Header from "../Common/Header";
+import Header from "../Components/AboutHeader";
 import SideBar from "../Common/SideBar";
 import LeftSideBar from "../Common/LeftSideBar";
 import { useState } from "react";
@@ -33,7 +33,7 @@ const Home = () => {
         }
 
       </Fade>
-        <Readmore/>
+        {/* <Readmore/> */}
       <Footer />
     </React.Fragment>
   )

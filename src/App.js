@@ -9,8 +9,8 @@ import Esg from './pages/esg';
 import "../src/responsive.css"
 import Governance from './pages/Governance';
 import Usp from './pages/Usp';
-import AOS from "aos";
-import "aos/dist/aos.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Loader from './Components/Loader';
 
 
@@ -28,7 +28,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    },4000)
+    },40000)
   }, [])
 
   useEffect(() => {
