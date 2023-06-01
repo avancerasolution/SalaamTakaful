@@ -4,7 +4,7 @@ import ReadMoreReact from "read-more-react";
 import data from "../Data";
 import { Fragment } from "react";
 import SwipeableViews from 'react-swipeable-views';
-import Aboutbg from "../assets/aboutbg.png"
+import Aboutbg from "../assets/aboutbg.jpeg"
 
 const AboutSection = () => {
   const styles = {

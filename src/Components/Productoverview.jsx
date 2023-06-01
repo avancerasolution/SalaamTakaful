@@ -4,7 +4,7 @@ import ReadMoreReact from "read-more-react";
 import data from "../Data";
 import { Fragment } from "react";
 import SwipeableViews from 'react-swipeable-views';
-import productbg from "../assets/productbg.png"
+import productbg from "../assets/productbg.jpeg"
 
 const Supercharge = () => {
   const styles = {
