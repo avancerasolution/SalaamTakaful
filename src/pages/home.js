@@ -13,18 +13,20 @@ const Home = () => {
   const [show, setshow] = useState(false);
   return (
     <React.Fragment>
-      <Fade right duration={1000}>
+      
         {show ? <MobileMenu show={show} setshow={setshow} /> : <>
 
 
 
           <div className="container-fluid main">
           <Header setshow={setshow} />
+          <Fade right duration={2000}>
+            <div>
             <SideBar />
             <Homepage setshow={setshow} />
             <LeftSideBar />
-
-
+            </div>
+            </Fade>
           </div>
 
 
@@ -32,7 +34,7 @@ const Home = () => {
         </>
         }
 
-      </Fade>
+      
         {/* <Readmore/> */}
       <Footer />
     </React.Fragment>

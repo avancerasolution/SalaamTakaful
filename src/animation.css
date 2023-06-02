@@ -1,28 +1,29 @@
+span.Typewriter__wrapper {
+  font-family: 'Bebas Neue' !important;
+  font-size: 38px !important;
+  display: block;
+  padding-top: 30px;
+  height: 140px !important;
+}
+
 .zoom-in-zoom-out {
     animation: zoom-in-zoom-out 2s  ;
     transition: all 500ms ease-in-out;
   }
-  span.Typewriter__wrapper {
-    font-family: 'Bebas Neue' !important;
-    font-size: 38px !important;
-    display: block;
-    padding-top: 30px;
-    height: 140px !important;
-  }
-  
+ 
   @keyframes zoom-in-zoom-out {
     0% {
       transform: scale(0) rotate(200deg);
       height: 45vh;
       border-radius: 200px;
       align-items: center !important;
-      filter: grayscale(1);
+     
     }
     100% {
       transform: scale(1) rotate(360deg);
       height: 100vh;
       border-radius: 0px;
-      filter: grayscale(0);
+      
     }
   }
   
@@ -43,33 +44,9 @@
       }
   }
 
-  .ske-01 { animation-name: skeOne;}
+ 
+/* text sleek animation fade effect */
 
-  @keyframes skeOne {
-    0% {transform: skew(0);}
-    100% {transform: skew(5deg);}
-  }
-  .ske-01, .ske-02, .ske-03, .ske-04 {
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse;
-    transform-origin: 20% 50%;
-  }
-
-  .ske-02 { animation-name: skeTwo;}
-
-  @keyframes skeTwo {
-    0% {transform: skew(0);}
-    100% {transform: skew(1deg);}
-  }
-.ske-02 {
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse;
-    transform-origin: 20% 50%;
-  }
 
   .swiper-slide-active .faderight {
     color: #fff;
@@ -125,9 +102,9 @@
   }
   
   @keyframes zoomEffect {
-    0% {background-size:200%;}
-    50% {background-size:160%;}
-    100% {background-size:200%;}
+    0% {background-size:200%; background-position: center }
+    50% {background-size:160%; background-position: center }
+    100% {background-size:200%; background-position: center }
   }
 
   .swiper-slide-active #scalex {

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ESG from "../assets/ESG.png";
 import Products from "../assets/Product.png";
 import Fund from "../assets/Fund.png";
+
 import office from "../assets/office-building.png";
 import protection from "../assets/protection.png";
 import premiumq from "../assets/premium-quality.png";
@@ -10,7 +11,9 @@ import premium from "../assets/premium-quality (1).png";
 
 const SideBar = () => {
   return (
+
     <React.Fragment>
+
       <div className="container-fluid">
         <div className="menu">
           <div className="item">
@@ -50,7 +53,9 @@ const SideBar = () => {
           </div>
         </div>
       </div>
+
     </React.Fragment>
+
   );
 };
 
