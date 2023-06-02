@@ -17,15 +17,16 @@ const About = () => {
         <MobileMenu show={show} setshow={setshow} />
       ) : (
         <>
-          <Fade right duration={1000}>
+          
             <div className="" >
               <Header show={show} setshow={setshow} />
+
               <div className="d-flex justify-content-between">
                 <SideBar />
               </div>
 
             </div>
-          </Fade>
+          
         </>
       )}
       <Readmore />

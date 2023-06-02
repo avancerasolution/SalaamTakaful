@@ -109,14 +109,14 @@ span.Typewriter__wrapper {
 
   .swiper-slide-active #scalex {
     color: #fff;
-    animation: scaleEffect 8s ease-in-out infinite;
-    transition: all 3s ease-in-out;
+    animation: scaleEffect 10s ease-in-out infinite;
+    transition: all 10s ease-in-out;
   }
   
   @keyframes scaleEffect {
-    0% {background-position-x:0%; }
-    50% {background-position-x:100%;}
-    100% {background-position-x:0%;}
+    0% {background-position-x:40%; }
+    50% {background-position-x:70%;}
+    100% {background-position-x:40%;}
   }
   #scalezoom {
     background-position: center !important;

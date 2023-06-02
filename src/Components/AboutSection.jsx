@@ -20,11 +20,9 @@ const AboutSection = () => {
   };
   return (
     <React.Fragment>
-      <Fade bottom>
+
         <div>
           <div className="section features aboutus zoominheaderabt zoom-in-zoom-out" data-aos="fade-left" data-aos-duration="2000" style={{ backgroundImage: `url(${Aboutbg})` }}>
-
-
 
             {data.About.map((item, index) => (
               <Fragment>
@@ -56,7 +54,7 @@ const AboutSection = () => {
             <p className="learn"></p>
           </div>
         </div>
-      </Fade>
+
     </React.Fragment>
   );
 };

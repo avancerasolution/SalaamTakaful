@@ -2255,7 +2255,6 @@ body {
   .col-sm-12.homepagesec .display-text-group {
     color: #fff;
     margin-right: 45px;
-
     overflow-y: scroll;
   }
 
@@ -2439,9 +2438,13 @@ body {
   .col-sm-12.homepagesec .display-text-group {
     color: #fff;
     overflow-y: scroll;
-    height: 450px;
+    height: 400px;
+    margin-bottom: 45px !IMPORTANT;
   }
-
+  .section.features.aboutus.zoominheaderabt.zoom-in-zoom-out.aos-init.aos-animate {
+    background-position: center;
+    background-size: cover;
+}
   .myheightmin {
     min-height: 600px;
     display: flex;
@@ -2473,7 +2476,7 @@ body {
   }
 
   .swiper-slide {
-    width: 400px;
+    width: 420px ;
   }
 
   /* Zoom in Keyframes */
