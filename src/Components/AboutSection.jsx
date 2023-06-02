@@ -38,7 +38,7 @@ const AboutSection = () => {
                       </div>
                     </div>
 
-                    <Fade right>
+                    <Fade left>
                       <div className='myheading' style={Object.assign({}, styles.slide, styles.slide1)}>
                         <div className="designtitle">
                         <ReadMoreReact text={item.description} min={300} ideal={380} max={450} readMoreText="read more" />

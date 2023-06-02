@@ -2739,10 +2739,10 @@ body {
   width: 60px !important;
   border-radius: 50px !important;
 }
-/* .myheading {
+.aboutus .myheading {
   width: 85%;
   padding-left: 10px;
-} */
+}
 }
 
 @media only screen and (max-width: 380px) {
@@ -2807,4 +2807,8 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+:root {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch ;
 }
