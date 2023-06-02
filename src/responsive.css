@@ -2478,6 +2478,9 @@ body {
   .swiper-slide {
     width: 420px ;
   }
+  .swiper-slide h2{
+    padding-left: 10px;
+  }
 
   /* Zoom in Keyframes */
   /* @-webkit-keyframes zoomin {
@@ -2783,6 +2786,12 @@ button.btn-scroll {
 
   bottom: 8%;
   left: 0%;
+}
+.swiper-slide {
+  width: 400px ;
+}
+.swiper-slide h2{
+  padding-left: 25px !important;
 }
 }
 .display-text-group{
