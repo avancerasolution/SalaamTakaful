@@ -27,14 +27,15 @@ const styles = {
     minHeight: 600,
   },
 };
-AOS.refresh(true)
+
+
 export default function Homepage({ setshow }) {
   return (
     <Fragment>
       <Fade left>
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 homepagesec">
+            <div className="col-sm-12 homepagesec zoom-in-zoom-out ">
               <div className="myheading main1 zoominheader ">
               <Swiper
                   effect={"coverflow"}
@@ -53,16 +54,18 @@ export default function Homepage({ setshow }) {
                   className="mySwiper"
                 >
                   {data.Homepage.map((item, index) => (
-                    <SwiperSlide className="zoom-in-zoom-out">
-                      <div  style={{ backgroundImage: `url(${item.imagebg})` }} className="mainslider " >
+                    <SwiperSlide >
+                      <div  style={{ backgroundImage: `url(${item.imagebg})` }} className="mainslider zoomeffect " id={`${item.imageeffect}`} >
                         {/* <SwipeableViews
                           enableMouseEvents
                           axis="y"
                           containerStyle={styles.slideContainer}
                         > */}
                         {/* <Fade left> */}
-                        <div data-aos="fade-left" data-aos-duration="3000"  style={Object.assign( {}, styles.slide, styles.slide1 )} key={index} className=" hometext">
-                            <h2>{item.title}</h2>
+                        <div style={Object.assign( {}, styles.slide, styles.slide1 )} key={index} className="hometext">
+                            <div className={`${item.effect}`}>
+                               <h2>{item.title}</h2>
+                            </div>
                         </div>
                         {/* </Fade> */}
                         {/* <div style={Object.assign(  {}, styles.slide, styles.slide1 )} className="hometext" >

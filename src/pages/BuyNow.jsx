@@ -45,7 +45,7 @@ const BuyNow = () => {
                   <input placeholder="Date of Birth" />
                   <div className="footerbottom">
 
-                  <div className="nextcall">
+                  {/* <div className="nextcall">
                     <span className="whitebg">
                       <Link to="#">
                         <span className="navimg">
@@ -53,13 +53,13 @@ const BuyNow = () => {
                         </span>
                       </Link>
                     </span>
-                  </div>
+                  </div> */}
                     <div className="formSubmit ">
                       {/* <button onClick={() => navigate("/")}>Back </button> */}
                       <button onClick={() => setshow(true)}>Next</button>
                     </div>
 
-                      <div className="nextcall">
+                      {/* <div className="nextcall">
                         <span className="whitebg">
                           <Link to="#">
                             <span className="navimg">
@@ -67,7 +67,7 @@ const BuyNow = () => {
                             </span>
                           </Link>
                         </span>
-                      </div>
+                      </div> */}
                   </div>
                 </div>
               </div>

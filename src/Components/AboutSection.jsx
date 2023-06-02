@@ -22,7 +22,7 @@ const AboutSection = () => {
     <React.Fragment>
       <Fade bottom>
         <div>
-          <div className="section features aboutus zoominheaderabt" data-aos="fade-left" data-aos-duration="2000" style={{ backgroundImage: `url(${Aboutbg})` }}>
+          <div className="section features aboutus zoominheaderabt zoom-in-zoom-out" data-aos="fade-left" data-aos-duration="2000" style={{ backgroundImage: `url(${Aboutbg})` }}>
 
 
 

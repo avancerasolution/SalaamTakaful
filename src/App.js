@@ -7,6 +7,7 @@ import BuyNow from './pages/BuyNow';
 import Product from './pages/product';
 import Esg from './pages/esg';
 import "../src/responsive.css"
+import "../src/animation.css"
 import Governance from './pages/Governance';
 import Usp from './pages/Usp';
 import AOS from 'aos';

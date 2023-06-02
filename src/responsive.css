@@ -315,13 +315,7 @@ body {
   }
 
   /* about */
-  .section {
-    margin-top: 97px;
-    height: 60vh;
-    /* overflow-y: scroll; */
-    padding-left: 40px;
-    padding-right: 104px;
-  }
+
 
   .section>p {
     font-family: "Proxima Nova";
@@ -668,7 +662,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #00000070;
+    background:#fff ;
     z-index: 0;
   }
 
@@ -709,9 +703,7 @@ body {
     cursor: pointer;
   }
 
-  .section {
-    height: 62vh !important;
-  }
+
 
   .menu {
     top: 11% !important;
@@ -741,10 +733,6 @@ body {
     text-decoration: underline;
   }
 
-  .section {
-    padding-left: 20px !important;
-    padding-right: 70px !important;
-  }
 
   .react-reveal .aboutus {
 
@@ -1152,8 +1140,9 @@ body {
     height: 70px !important;
   } */
   .call_btn>a>button {
-    background-color: var(--green);
+    background: radial-gradient(circle, rgba(1,167,158,1) 30%, rgba(28,116,188,1) 80%);
     height: 50px;
+    background-size: 200% 200%;
     font-size: 18px;
     margin: auto;
     color: var(--frontfont);
@@ -1229,10 +1218,13 @@ body {
   .formSubmit>button {
     border-radius: 30px;
     margin: 0 2px;
-
-    height: 63px;
     width: 170px;
-  }
+    height: 7vh !IMPORTANT;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important; 
+
+}
 
   .formSubmit {
     margin-right: 0px !important;
@@ -1365,8 +1357,14 @@ body {
 
   .call_btn>a>button {
     border-radius: 50px !important;
-    width: 60vw ;
-  }
+    width: 40vw;
+    height: 7vh !IMPORTANT;
+    position: relative;
+    top: 15px;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+
+}
 
   .call_btn>button>img {
     margin: 0 10px;
@@ -1533,13 +1531,7 @@ body {
   }
 
   /* about */
-  .section {
-    margin-top: 97px;
-    height: 50vh;
-    overflow-y: scroll;
-    padding-left: 40px;
-    padding-right: 104px;
-  }
+
 
   .section>p {
     font-family: "Proxima Nova";
@@ -1806,16 +1798,6 @@ body {
     z-index: 1;
   }
 
-  .container-fluid.main:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #00000070;
-    z-index: 0;
-  }
 
   .container {
     position: relative;
@@ -1844,9 +1826,7 @@ body {
     top: -85px;
   }
 
-  .section {
-    height: 62vh !important;
-  }
+
 
   .menu {
     top: 15% !important;
@@ -1876,10 +1856,7 @@ body {
     text-decoration: underline;
   }
 
-  .section {
-    padding-left: 20px !important;
-    padding-right: 70px !important;
-  }
+
 
   .react-reveal .aboutus {
 
@@ -2302,8 +2279,8 @@ body {
     border-radius: 50px;
     font-family: "Proxima Nova";
     font-style: normal;
-    background: linear-gradient(360deg, #0E76BC 2.94%, #00A79D 84.97%, #00A651 95.59%);
-    box-shadow: 0px 5.17483px 10.3497px rgba(0, 0, 0, 0.2);
+    /* background: linear-gradient(360deg, #0E76BC 2.94%, #00A79D 84.97%, #00A651 95.59%);
+    box-shadow: 0px 5.17483px 10.3497px rgba(0, 0, 0, 0.2); */
     border-radius: 43.986px;
   }
 
@@ -2446,7 +2423,7 @@ body {
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    bottom: 9% !important;
+    bottom: 15% !important;
   }
 
   span.swiper-pagination-bullet {
@@ -2612,14 +2589,14 @@ body {
     border-radius: 60px;
     justify-content: center;
 }
-.footerbottom button {
+/* .footerbottom button {
   border: 5px solid #0E76BC !important;
   width: 60vw !important;
   height: 8vh !IMPORTANT;
   font-family: 'Nanum Gothic', sans-serif !important;
   font-size: 25px !important;
   font-weight: 400 !important;
-}
+} */
 .col.call_btn.footerbottom div {
   margin: 0 0px;
   position: relative;
@@ -2632,7 +2609,7 @@ body {
   background-position: center;
 }
 .menu .navimg, span.navimg{
-  background-image: url('../src/assets/bgicon.png') !important;
+  /* background-image: url('../src/assets/bgicon.png') !important; */
   background-position: center;
   border-radius: 0 !important;
 }
@@ -2677,9 +2654,8 @@ button.btn-scroll img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px !important;
   width: 150px !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 .formSubmit> :last-child{
   display: flex;
@@ -2704,46 +2680,69 @@ button.btn-scroll img {
   background-size: cover;
   display: flex;
 }
-.zoom-in-zoom-out {
-  animation: zoom-in-zoom-out 2s ease-out ;
-  transition: all 200ms ease-in-out;
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-span.Typewriter__wrapper {
-  font-family: 'Bebas Neue' !important;
-  font-size: 38px !important;
-  display: block;
-  padding-top: 30px;
-  height: 140px !important;
+.menu .navimg {
+  color: var(--frontfont);
+  height: 50px !important;
+  width: 50px !important;
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+  z-index: 999999;
+  position: relative;
+  border-radius: 10px 0px 0px 10px;
+  transition: all 700ms ease-in-out;
+}
+.menu span.navimg img {
+  position: relative;
+  top: -1px;
+}
+.container-fluid .menu img {
+  width: 60% !important;
+  padding: 2px;
+  position: relative;
+  top: -8px;
+}
+.whitebg .navimg {
+  color: var(--frontfont);
+  height: 60px !important;
+  width: 60px !important;
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+  z-index: 999999;
+  position: relative;
+  border-radius: 10px 0px 0px 10px;
+  transition: all 700ms ease-in-out;
 }
 
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(0.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+.navimg {
+  animation: border 8s ease-in-out infinite;
+  transition: all 3s ease-in-out;
 }
-
-.zoom-in-zoom-outa {
-  animation: zoom-in-zoom-outa 0.9s ease-out infinite;
-  transition: all 200ms ease-in-out;
+.col.call_btn.footerbottom img {
+  width: 45% !important;
+  top: 0 !important;
 }
-
-@keyframes zoom-in-zoom-outa {
-  0% {
-    transform: scale(0.5);
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.5);
-  }
+.col.call_btn.footerbottom div {
+  margin: 0 40px;
+  position: relative;
+  top: 20px;
 }
+.footerbottom .navimg {
+  height: 45px !important;
+  width: 60px !important;
+  border-radius: 50px !important;
+}
+/* .myheading {
+  width: 85%;
+  padding-left: 10px;
+} */
 }
 
 @media only screen and (max-width: 380px) {
@@ -2760,7 +2759,7 @@ span.Typewriter__wrapper {
   .col-sm-12.homepagesec .display-text-group {
     color: #fff;
     overflow-y: scroll;
-    height: 300px !important;
+    height: 350px !important;
 }
 .buynowpage .footerbottom {
   display: flex;
@@ -2777,4 +2776,35 @@ span.Typewriter__wrapper {
 .innerbuyNow>div>input {
   margin: 4px auto !important;
 }
+button.btn-scroll {
+
+  bottom: 8%;
+  left: 0%;
+}
+}
+.display-text-group{
+  -webkit-overflow-scrolling: touch !important;
+  -webkit-overflow-scrolling: touch;
+}
+body{
+  -webkit-overflow-scrolling: touch !important;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
