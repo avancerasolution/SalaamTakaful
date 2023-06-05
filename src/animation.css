@@ -17,6 +17,7 @@ span.Typewriter__wrapper {
       height: 45vh;
       border-radius: 200px;
       align-items: center !important;
+      background-color: #000;
      
     }
     100% {
@@ -180,3 +181,4 @@ span.Typewriter__wrapper {
     100% {background-position: 10% ;}
   }
 
+body{background-color: #000 !important;}

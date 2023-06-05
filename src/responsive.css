@@ -662,7 +662,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background:#fff ;
+    background: radial-gradient(circle, rgba(1,167,158,1) 30%, rgba(28,116,188,1) 80%);
     z-index: 0;
   }
 
