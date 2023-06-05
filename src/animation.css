@@ -181,4 +181,26 @@ span.Typewriter__wrapper {
     100% {background-position: 10% ;}
   }
 
-body{background-color: #000 !important;}
+body{
+  background: radial-gradient(circle, rgba(1,167,158,1) 30%, rgba(28,116,188,1) 80%);
+}
+/* .swiper-slide {
+  width: 400px;
+  height: 100vh !important;
+} */
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-vertical {
+  position: fixed;
+  z-index: 9999999;
+  top: 70%;
+}
+
+.swiper-slide {
+  color: #fff!important;
+  background: #000;
+  font-size: 46px !important;
+  height: 100vh !important;
+}
+
+.swiper{
+  color: #fff!important;
+}

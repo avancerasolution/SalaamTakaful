@@ -25,8 +25,19 @@ const data = {
     About: [
         {
             "title": "Experience Seamless Protection with Salaam Life & Savings",
+            "description": "",
+            "img":"../asset/governancebg.png",
+            "effect":"fadeup",
+            "imageeffect":"scalex"
+        },
+        {
+            "title": "",
             "description": "With a strong lineage and a success story of being Pakistan's first and only Islamic Insurtech, Salaam Life & Savings comes with a promise - of delivering exceptional value, customer services and offerings. At Salaam Life & Savings, the commitment to revolutionize the world of takaful is a given.  We understand that our customers' needs are different, and that's why we offer a range of customized takaful products, ensuring that our customers receive the protection they need for themselves and their loved ones. What sets us apart from other takaful companies is our whole-hearted dedication geared towards your needs and requirements, backed by trust, because we provide the most user-friendly and accessible digital experience to our customers, making takaful accessible to everyone. At Salaam Life & Savings, believe in the world of possibilities because we know how to deliver, and when!",
+            "img":"../asset/aboutbg.jpeg",
+            "effect":"faderight",
+            "imageeffect":"zoomeffect"
         }
+        
     ],
 
     Companydetail: [
