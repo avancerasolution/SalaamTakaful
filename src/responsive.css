@@ -2824,3 +2824,40 @@ body{
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch ;
 }
+
+
+.hassantext {
+  width: 0 !important;
+  opacity: 0 !important;
+  transition: all 1s ease-in-out !important;
+  position: relative !important;
+  right: -100px !important;
+}
+.whitebg:hover .hassantext{
+  width:100% !important;
+  opacity: 1 !important;
+  transition: all 1s ease-in-out !important;
+  position: relative !important;
+  right: 0px !important;
+}
+.whitebg:hover .meunu .navimg {
+  border-radius: 10px 0px 0 30px !important;
+  transition: all 1s ease-in-out;
+  padding: 10px;
+  width: 100% !important;
+}
+.whitebg:hover img{
+  width: 90% !important;
+}
+.hassantext span{
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px !important;
+  text-transform: capitalize;
+  display: block;
+  padding-left: 10px !important;
+}
+.hassantext a{
+  text-decoration: none;
+  display: block;
+}

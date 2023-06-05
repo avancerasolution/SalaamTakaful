@@ -9,6 +9,8 @@ import protection from "../assets/protection.png";
 import premiumq from "../assets/premium-quality.png";
 import premium from "../assets/premium-quality (1).png";
 
+
+
 const SideBar = () => {
   return (
 
@@ -18,30 +20,45 @@ const SideBar = () => {
         <div className="menu">
           <div className="item">
             <span className="whitebg">
-              <Link to="/about">
+              
                 <span className="navimg">
                   <img src={office} alt="img" />
                 </span>
-              </Link>
+                <div className="hassantext">
+                  <Link to="/about" className="">
+                  <span>about us</span>
+                  </Link>
+                </div>
+
+                
+                
             </span>
           </div>
 
           <div className="item">
             <span className="whitebg">
-              <Link to="/product">
                 <span className="navimg">
                   <img src={protection} alt="img" />
                 </span>
-              </Link>
+                <div className="hassantext">
+                  <Link to="/product" className="">
+                  <span>Product</span>
+                  </Link>
+                </div>
+
             </span>
           </div>
           <div className="item ">
             <span className="whitebg">
-              <Link to="/governance">
                 <span className="navimg">
                   <img src={premiumq} alt="img" />
                 </span>
-              </Link>
+                <div className="hassantext">
+                  <Link to="/governance" className="">
+                  <span>governance</span>
+                  </Link>
+                </div>
+             
             </span>
           </div>
           <div className="item iteminner">
@@ -49,6 +66,11 @@ const SideBar = () => {
               <span className="navimg">
                 <img src={premium} alt="img" />
               </span>
+              <div className="hassantext">
+                  <Link to="/#" className="">
+                  <span>financial</span>
+                  </Link>
+                </div>
             </span>
           </div>
         </div>

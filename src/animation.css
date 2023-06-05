@@ -134,7 +134,7 @@ span.Typewriter__wrapper {
     100% {background-position-x:0% !important; background-size:180%;}
   }
 
-  .menu .navimg, span.navimg {
+  .menu .whitebg {
     background-position: center;
     border-radius: 0 !important;
     background: radial-gradient(circle, rgba(1,167,158,1) 30%, rgba(28,116,188,1) 80%);
@@ -142,6 +142,16 @@ span.Typewriter__wrapper {
     margin-bottom: 10px;
     background-position: 0 0;
     background-size: 200% 200%;
+
+}
+.footerbottom span.navimg {
+  background-position: center;
+  border-radius: 0 !important;
+  background: radial-gradient(circle, rgba(1,167,158,1) 30%, rgba(28,116,188,1) 80%);
+  border-radius: 10px 30px 0 30px !important;
+  margin-bottom: 10px;
+  background-position: 0 0;
+  background-size: 200% 200%;
 
 }
 .call_btn>a>button {
@@ -157,7 +167,7 @@ span.Typewriter__wrapper {
     100% {background-position: 10% ;}
   }
 
-  span.navimg {
+  .whitebg {
     animation: iconAnim 3s;
   animation-iteration-count: infinite;
   backface-visibility: hidden;
